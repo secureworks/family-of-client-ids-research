@@ -129,7 +129,7 @@ azure_cli_bearer_tokens_for_graph_api = azure_cli_client.acquire_token_by_device
 pprint(azure_cli_bearer_tokens_for_graph_api)
 ```
 
-We should now have a set of bearer tokens for the Microsoft Office client application.
+We should now have a set of bearer tokens for the Azure CLI client application.
 
 ## Bearer Tokens
 
@@ -174,7 +174,7 @@ pprint(decoded_access_token)
 
 ```
 
-We can bear the access token in the header of a web request to access the Microsoft Graph as the resource owner. The Graph endpoint `/me/oauth2PermissionGrants` returns a list of OAuth 2.0 permission grants, which represent consent granted by the user to client applications for specific scopes. The same approach can be used to call any other Graph endpoint - so long as the access token contains the [necessary scopes](https://docs.microsoft.com/en-us/graph/permissions-reference). In the case of `/me/oauth2PermissionGrants`, access tokens must have a scope containing `Directory.Read.All`, `DelegatedPermissionGrant.ReadWrite.All`, `Directory.ReadWriteAll`, or `Directory.AccessAsUser.All` to call this API endpoint.
+We can pass the access token in the header of a web request to access the Microsoft Graph as the resource owner. The Graph endpoint `/me/oauth2PermissionGrants` returns a list of OAuth 2.0 permission grants, which represent consent granted by the user to client applications for specific scopes. The same approach can be used to call any other Graph endpoint - so long as the access token contains the [necessary scopes](https://docs.microsoft.com/en-us/graph/permissions-reference). In the case of `/me/oauth2PermissionGrants`, access tokens must have a scope containing `Directory.Read.All`, `DelegatedPermissionGrant.ReadWrite.All`, `Directory.ReadWriteAll`, or `Directory.AccessAsUser.All` to call this API endpoint.
 
 ### Example 3 - Use Access Token to Call Graph API
 
@@ -197,9 +197,9 @@ check_my_oauth2PermissionGrants(
 
 > Note that the Azure CLI client application does not appear in the list of permission grants because it has been "pre-authorized" by Microsoft. There are many of these first-party client applications in an Azure AD tenant by default.
 
-Access tokens expire after a short period of time, usually one hour, after which the client application will need to obtain a new access token to continue accessing protected resources. The client application can either request authorization from the resource owner again or use a refresh token to obtain new access tokens based on the prior authorization.
+Access tokens expire after a short period of time, usually one hour. Once an access token has expired, the client application will need to obtain a new access token to continue accessing protected resources. The client application can either request authorization from the resource owner again or use a refresh token to obtain new access tokens based on the prior authorization.
 
-**Refresh tokens** are a special type of bearer token representing the authorization granted by the resource owner to the client application. Client applications can redeem refresh tokens with the authorization server to obtain a new set of bearer tokens (including another refresh token) - without requiring additional authorization from the resource owner and even after the originally issued access token has expired. Refresh tokens are much longer-lived than access tokens; most refresh tokens issued by Azure AD are valid for 90 days. The refresh tokens contain an opaque blob that is encrypted by the authorization server. As such the exact content of refresh tokens is unknown.
+**Refresh tokens** are a special type of bearer token representing the authorization granted by the resource owner to the client application. Client applications can redeem refresh tokens with the authorization server to obtain a new set of bearer tokens (including another refresh token) after the originally issued access token has expired and  without requiring new authorization from the resource owner. Refresh tokens are much longer-lived than access tokens; most refresh tokens issued by Azure AD are valid for 90 days. The refresh tokens contain an opaque blob that is encrypted by the authorization server. As such the exact content of refresh tokens is unknown.
 
 ![refresh](images/refresh-tokens.svg)
 
@@ -233,11 +233,11 @@ The OAuth 2.0 specifications include safeguards to mitigate the potential risk f
 
 - Safeguard #2: **Same Client** - Furthermore, refresh tokens are [“bound to the client to which it was issued”](https://datatracker.ietf.org/doc/html/rfc6749#section-6) and the [authorization server is responsible](https://datatracker.ietf.org/doc/html/rfc6749#section-10.4) for maintaining this binding.  The IETF threat model for OAuth2.0 clarifies that the refresh token should be bound to the original client identifier, which the [authorization server should validate](https://datatracker.ietf.org/doc/html/rfc6819#section-5.2.2.2) with each attempt to refresh tokens.  
 
-In other words, the level of access provided by a refresh token was intended to reflect what the resource owner originally authorized: for the same scopes, resource server, and client application. These safeguards are in place to ensure client applications can only access resources that were explicitly authorized by the resource owner and mitigate the risks from stolen refresh tokens.
+In other words, the level of access provided by a refresh token should reflect what the resource owner originally authorized: for the same scopes, on the same resource server, and as the same client application.
 
-Microsoft has a history of bending these rules with features like [“multi-resource refresh tokens”](https://www.cloudidentity.com/blog/2013/10/14/adal-windows-azure-ad-and-multi-resource-refresh-tokens/) (MRRTs). MRRTs effectively ignored the first rule for refresh tokens: being limited to the previously authorized scopes. Instead, MRRTs acted as “the OAuth2 equivalent of ticket granting tickets (TGTs) in Kerberos; they are artifacts that allow a user to obtain tokens to access resources the directory decides she or he has access to.”  MRRTs remained bound to the same user and client application, but Azure AD would redeem MRRTs for new bearer tokens scoped to any resources for which the client had been granted consent. Furthermore, MRRTs were not scoped by tenant. Client applications could “use MRRTs to ask for access tokens from any tenant in which the user has a guest account and has already granted consent for the client app originally used to obtain the first refresh token.” (*Modern Authentication with Azure Active Directory for Web Applications. Bertocci, Vittorio. 2019. Page 242-243*)  
+Microsoft has a history of bending these rules with the legacy Azure AD feature called [“multi-resource refresh tokens”](https://www.cloudidentity.com/blog/2013/10/14/adal-windows-azure-ad-and-multi-resource-refresh-tokens/) (MRRTs). MRRTs effectively ignored the first safeguard for refresh tokens (limit access to the previously authorized scopes). Instead, MRRTs acted as “the OAuth2 equivalent of ticket granting tickets (TGTs) in Kerberos; they are artifacts that allow a user to obtain tokens to access resources the directory decides she or he has access to.” (*Modern Authentication with Azure Active Directory for Web Applications. Bertocci, Vittorio. 2019. Page 242-243*) MRRTs remained bound to the same user and client application, but Azure AD would redeem MRRTs for new bearer tokens scoped to any resources for which the client had been granted consent. Furthermore, MRRTs were not scoped by tenant. Client applications could “use MRRTs to ask for access tokens from any tenant in which the user has a guest account and has already granted consent for the client app originally used to obtain the first refresh token.” [ibid.]
 
-MRRTs are no longer an optional feature; all Azure AD refresh tokens exhibit these behaviors today. Microsoft [documentation](https://docs.microsoft.com/en-us/azure/active-directory/develop/refresh-tokens) states “Refresh tokens are bound to a combination of user and client, but aren't tied to a resource or tenant… a client can use a refresh token to acquire access tokens across any combination of resource and tenant where it has permission to do so.” 
+MRRTs are no longer an optional feature; all Azure AD refresh tokens exhibit this behavior today. Microsoft [documentation](https://docs.microsoft.com/en-us/azure/active-directory/develop/refresh-tokens) clearly states “Refresh tokens are bound to a combination of user and client, but aren't tied to a resource or tenant… a client can use a refresh token to acquire access tokens across any combination of resource and tenant where it has permission to do so.” 
 
 Here is a demonstration of a refresh token grant, but requesting different scopes than the original authorization. Note the content of the access token and how it differs from the previous examples.
 
@@ -263,9 +263,9 @@ pprint(azure_cli_bearer_tokens_for_outlook_api)
 
 ```
 
-An open-source project recently demonstrated that it is possible to redeem a refresh token issued to some first-party Microsoft client applications for new bearer tokens issued to a different first-party client application. This is unexpected behavior given the rules for refresh tokens outlined in the OAuth 2.0 specifications. We were unable to replicate this behavior with any third-party OAuth applications.
+Recent open-source projects ([TokenTactics](https://github.com/rvrsh3ll/TokenTactics) and [AADInternals](https://github.com/Gerenios/AADInternals)) showed, however, that it is also possible to redeem a refresh token issued to some first-party Microsoft client applications for new bearer tokens issued to a different first-party client application. This is unexpected behavior given refresh tokens safeguard #2 outlined above.
 
-To demonstrate the undocumented behavior, let's redeem the refresh token acquired from the previous steps to acquire new bearer tokens as a different Microsoft client application.
+To demonstrate the undocumented behavior, let's redeem the refresh token acquired from the previous steps to acquire new bearer tokens as a *different* Microsoft client application.
 
 ### Example 6 - Undocumented AAD Refresh Token Behavior: Different Clients
 
@@ -288,7 +288,6 @@ pprint(microsoft_office_bearer_tokens_for_graph_api)
 ```
 
 <!-- #region -->
-In the next section, we will explore easily abused and undocumented functionality with special refresh tokens issued to some of Microsoft's first-party, pre-consented, public OAuth client applications in Azure AD.
 
 # Part 2 - Introducing Family of Client IDs & Family Refresh Tokens
 
@@ -300,13 +299,13 @@ The behavior demonstrated in example 6 led us to ask the following research ques
 
 ## Experiments
 
-To learn more, we brute forced combinations of refresh token grants between pairs of known first-party Microsoft OAuth applications in series of experiments. For each pair of clients, we requested the `.default` scope for a fixed list of common Azure AD and Microsoft 365 resource servers. The list of first-party applications was assembled by scraping GitHub and from the enterprise applications found in our Azure AD test tenant. After several million combinations of Microsoft client applications, the following pattern emerged in the results:
+To learn more, we performed a series of experiments. In these experiments, we brute forced refresh token grants between combinations of known first-party Microsoft OAuth client applications. The list of first-party applications was assembled by scraping GitHub and from the enterprise applications found in our Azure AD test tenant. For each pair of clients, we requested the `.default` scope for a fixed list of common Azure AD and Microsoft 365 resource servers.  After several million combinations of Microsoft client applications, the following pattern emerged in the results:
 
-- Out of a sample size of ~600 first-party Microsoft client applications, only 15 client applications were issued refresh tokens that were redeemable for new bearer tokens for a different client than the original access token.
+- Out of a sample size of ~600 first-party Microsoft client applications, only 15 client applications were issued refresh tokens redeemable for new bearer tokens as a different client than the original access token.
 - All 15 anomalous client applications were first-party and pre-consented in our Azure AD test tenant.
 - All 15 anomalous client applications were public clients, meaning that no additional credentials were required to obtain bearer tokens.
 - There was reciprocity between all 15 anomalous client applications; all the anomalous client applications could redeem their refresh tokens for new bearer tokens for any of the other 15 anomalous client applications.
-- The scopes authorized in the newly issued access tokens were based on the new client. In other words, the client application and scopes from the original authorization did not matter. We will explore the implications of this behavior in a later section.
+- The scopes authorized to the newly issued access tokens were based on the new client. In other words, the client application and scopes from the original authorization did not matter. We will explore the implications of this in a later section.
 - If the same user principal was invited as a B2B guest in a different Azure AD tenant, then refresh tokens issued to any of the 15 anomalous client applications for that user in Tenant A could be redeemed for other anomalous client applications in Tenant B.
 - The authorization server returned an extra field in the JSON response when issuing bearer tokens to these 15 anomalous client applications: an additional field named `foci`. Notice that this field is present in the examples above. 
 
@@ -319,7 +318,7 @@ Error codes in the responses from the authorization server led us to the open-so
 
 > "FUTURE SERVER WORK WILL ALLOW CLIENT IDS TO BE GROUPED ON THE SERVER SIDE IN A WAY WHERE A RT FOR ONE CLIENT ID CAN BE REDEEMED FOR A AT AND RT FOR A DIFFERENT CLIENT ID AS LONG AS THEY'RE IN THE SAME GROUP. THIS WILL MOVE US CLOSER TO BEING ABLE TO PROVIDE SSO-LIKE FUNCTIONALITY BETWEEN APPS WITHOUT REQUIRING THE BROKER (OR WORKPLACE JOIN)."
 
-We then found references in the source code naming the special refresh tokens issued to FOCI clients "family refresh tokens" (or FRTs). Based on developer remarks, it appears there is only [one family ID currently in use](https://github.com/AzureAD/microsoft-authentication-library-for-python/blob/3062770948f1961a13767ee85dd7ba664440feb3/msal/application.py#L1171) at Microsoft.  
+We then found references in the source code calling refresh tokens issued to FOCI clients "family refresh tokens" (or FRTs). Based on developer remarks, it appears there is only [one family ID currently in use](https://github.com/AzureAD/microsoft-authentication-library-for-python/blob/3062770948f1961a13767ee85dd7ba664440feb3/msal/application.py#L1171) at Microsoft.  
 
 In MSRC submission VULN-057712, Microsoft confirmed that FOCI and family refresh tokens are an intentional software feature. Microsoft engineering provided a thoughtful (and quite lengthy) response describing the origins of FOCI and its threat model, which confirmed the findings from this research. According to Microsoft, FOCI was designed to support pseudo single sign-on (SSO) functionality for Microsoft mobile applications. FOCI mirrors the behavior of mobile operating systems that store authentication artifacts (such as refresh tokens) in a shared token cache with other applications from the same software publisher.
 
@@ -346,10 +345,12 @@ Here is the list of known FOCI "family" clients discovered during our experiment
 | 87749df4-7ccf-48f8-aa87-704bad0e0e16 | Microsoft Teams - Device Admin Agent     |
 | cf36b471-5b44-428c-9ce7-313bf84528de | Microsoft Bing Search                    |
 
+This list is not exhaustive. We believe that the presence of the `foci` field in final leg of the grant flow is a high confidence indicator that the client belongs to the FOCI "family." We will add new clients as they are discovered in this [repository](known-foci-clients.csv).
+
 
 ### *What are the security implications of Family Refresh Tokens?*
 
-Family refresh tokens are a special kind of refresh token that disregard the token binding safeguards defined in the OAuth 2.0 specifications. This has some serious and likely unintended consequences given that there are hundreds of scopes across Microsoft 365 services that are pre-consented for these family client applications. Microsoft argued that a risk of refresh token theft applies to all OAuth public clients, which is certainly true. But Microsoft did not acknowledge that family refresh tokens - being unbound to either client application or scope - pose a higher risk of abuse.
+Family refresh tokens are a special kind of refresh token that disregard the token binding safeguards defined in the OAuth 2.0 specifications. Since a family refresh token issued to any "family" client application can be redeemed for access tokens for every/any/all other family client applications, a family refresh token effectively provides the possessor with access to the union of all scopes in the family. This has some serious and likely unintended consequences given that there are hundreds of scopes with pre-consent for these FOCI "family" client applications. Microsoft argued that a risk of refresh token theft applies to all OAuth public clients, which is certainly true. But Microsoft did not acknowledge that family refresh tokens - being unbound to either client application or scope - pose a higher risk of abuse.
 
 To highlight the different levels of access afforded by the access tokens we've acquired so far, let's imagine a scenario where an attacker steals tokens issued to the Azure CLI. This is quite plausible because these tokens are often stored in plain-text on disk in `~/.azure/accessTokens.json`.
 <!-- #endregion -->
@@ -368,21 +369,21 @@ def read_email_messages(access_token: str) -> List[Dict[str, Any]]:
 
 ```
 
-If we try to use the access token for the Azure CLI client to call the `/beta/me/mailfolders/inbox/messages` endpoint, we should receive an error message from the API. This makes sense since the Azure CLI access token does not contain `mail` related scopes and the Azure CLI has no legitimate reason to read user email.
+If we try to use the access token for the Azure CLI client to call the `/beta/me/mailfolders/inbox/messages` endpoint, we should receive an error message from the API. This makes sense since the Azure CLI access token does not contain `Mail.*` related scopes and the Azure CLI has no legitimate reason to read user email.
 
 ```python
 read_email_messages(azure_cli_bearer_tokens_for_graph_api.get("access_token"))
 ```
 
-But if the attacker redeemed the family refresh token issued to the Azure CLI client to acquire new tokens for a different client with the desired scopes, such as the Microsoft Office client, then they could read the victim user's emails with its access token instead.
+But if the attacker redeemed the family refresh token issued to the Azure CLI to acquire new tokens for a different client with the necessary scopes (as we did with the Microsoft Office client in example 6), then the attacker could read the victim user's emails with a newly minted access token instead.
 
 ```python
 read_email_messages(microsoft_office_bearer_tokens_for_graph_api.get("access_token"))
 ```
 
-As defenders, we need to be aware of the blast radius of a stolen (or illictly authorized) family refresh token. It is not obvious (or documented) that stolen Azure CLI tokens can be used to perform actions that exceed the consent granted to the Azure CLI client application.
+As defenders, we need to be aware of the blast radius of a stolen (or illictly acquired) family refresh token. It is not documented (or intuitive) that stolen Azure CLI tokens can be used to perform actions that exceed the consent granted to the Azure CLI client application itself.
 
-Since a family refresh token issued to any "family" client application can be redeemed for access tokens for every other family client application, a family refresh token effectively provides whoever possesses it with authorization for the union of all scopes in the family. As such, family refresh tokens allow privilege escalation relative to the original client application. To be clear, the scopes authorized to newly minted access tokens when redeeming family refresh tokens cannot exceed the level of access that the resource owner has in the Azure AD directory; it doesn't allow lower privileged users to do things that the user aren't entitled to do in Azure or Microsoft 365. In the context of role assignments in Azure AD, the level of access for a user relative to their directory role assignments is unchanged – thus it doesn’t qualify as privilege escalation. But from the OAuth 2.0 and attacker perspectives, the level of access provided by family refresh tokens greatly surpasses what the resource owner authorized to any given client application.
+Family refresh tokens allow privilege escalation relative to the original client application. To be clear, the scopes authorized to newly minted access tokens when redeeming family refresh tokens do not exceed the level of access for the resource owner (user) in the Azure AD directory; it doesn't allow lower privileged users to do things that they aren't entitled to do in Azure or Microsoft 365. In other words, the level of access provided by a FRT relative to the user's directory role assignments is unchanged. In this context, it does not qualify as privilege escalation. But from the OAuth and practical attack perspectives, the level of access provided by family refresh tokens greatly surpasses what the resource owner authorized to any given client application.
 
 Furthermore, redeeming family refresh tokens does not invalidate previously issued refresh tokens. The following examples shows that a single family refresh token can also be used to obtain access tokens for every family client application.
 
@@ -414,7 +415,11 @@ df.head()
 
 # Part 3 - Attack Paths
 
-RFC 6819 enumerates a [variety of attack paths](https://datatracker.ietf.org/doc/html/rfc6819#section-4.1.2) for malicious actors to obtain refresh tokens, all of which apply to family refresh tokens. Broadly speaking, these attacks involve either 1) stealing a previously and legitimately issued family refresh token or 2) obtaining a family refresh token through malicious authorization. It is possible to steal family refresh tokens that were already and legitimately issued to client applications in the family. For example, if the attacker compromises the cache where the tokens are stored (such as the Windows Web Account Manager), eavesdrops on network traffic during a grant flow, or finds them serialized on disk in files like ~/.Azure/accessTokens.json. We focused our attention, however, on how an attacker could obtain family refresh tokens by maliciously authorizing a family client application.
+RFC 6819 enumerates a [variety of attack paths](https://datatracker.ietf.org/doc/html/rfc6819#section-4.1.2) for malicious actors to obtain refresh tokens, all of which apply to family refresh tokens. Broadly speaking, these attacks involve either 1) stealing a previously and legitimately issued family refresh token or 2) obtaining a family refresh token through malicious authorization. 
+
+There are multiple ways to steal family refresh tokens that were previously and legitimately issued to family client applications. For example, if the attacker compromises the cache where the tokens are stored (such as the Windows Web Account Manager), intercepts the tokens over network traffic during a grant flow, or finds them serialized on disk in files (such as the previous example of `~/.Azure/accessTokens.json`). 
+
+We focused our attention, however, on how an attacker could obtain family refresh tokens by maliciously authorizing a family client application.
 
 ## Device Code Phishing
 
@@ -428,13 +433,13 @@ We leverage device code phishing to great effect during red team engagements, es
 
 ## Abusing Single Sign-On
 
-Another simple and effective attack path to family refresh tokens is to abuse single sign-on for Azure AD joined devices. The OAuth 2.0 threat model describes a scenario where an attacker might obtain a refresh token through exploiting some mechanism that [automatically authorizes](https://datatracker.ietf.org/doc/html/rfc6819#section-4.4.3.3) client applications without knowledge or intent from the resource owner.  This is trivially possible on Azure AD joined Windows devices with single sign-on enabled.
+Another simple and effective method to obtain family refresh tokens is to abuse single sign-on on Azure AD joined devices with Pass-The-PRT attacks. The OAuth 2.0 threat model describes a scenario where an attacker might obtain a refresh token through exploiting some mechanism that [automatically authorizes](https://datatracker.ietf.org/doc/html/rfc6819#section-4.4.3.3) client applications without knowledge or intent from the resource owner. This is trivially possible on Azure AD joined Windows devices with single sign-on enabled.
 
-Processes that execute in the context of a logged-in Azure AD user on an Azure AD-joined Windows device can [request a pre-signed cookie from a COM service](https://github.com/leechristensen/RequestAADRefreshToken). This cookie can then be used to complete an authorization grant flow for arbitrary client applications, including those in the family. There are [other](https://dirkjanm.io/abusing-azure-ad-sso-with-the-primary-refresh-token/) [ways](https://o365blog.com/post/prt/) to obtain these signed cookies as well. 
+Any process that executes in the context of a logged-in Azure AD user on an Azure AD-joined Windows device can [request a pre-signed cookie from a COM service](https://github.com/leechristensen/RequestAADRefreshToken). This cookie can then be used to complete an authorization grant flow for arbitrary OAuth applications, including family client apps. There are [other](https://dirkjanm.io/abusing-azure-ad-sso-with-the-primary-refresh-token/) [ways](https://o365blog.com/post/prt/) to obtain these signed cookies as well. 
 
 ![sso-abuse](images/sso-cs.png)
 
-Typically, the disadvantage of abusing SSO is that each time the attacker wants access to some scope that was not authorized to the stolen access token, the attacker must request a new signed cookie (or otherwise complete an authorization grant flow again) to obtain a new access token with the desired scopes. In the case of family refresh tokens, even if the attacker only generated a one pre-signed cookie, they can silently exchange the family refresh token multiple times for new access tokens for other family client applications.
+Typically, the disadvantage of abusing SSO is that each time the attacker wants access to some scope that was not authorized to the stolen access token, the attacker must request a new signed cookie (or otherwise complete an authorization grant flow again) to obtain a new access token with the desired scopes. In the case of family refresh tokens, even if the attacker only generates a single pre-signed cookie, they can silently exchange the family refresh token multiple times for new access tokens for other family client applications.
 
 We have abused single sign-on to authorize FOCI clients during red team engagements. It is convenient that we can run tools such as AzureHound to minimize interactive user sign-ins when multiple tokens with the necessary scopes.
 
