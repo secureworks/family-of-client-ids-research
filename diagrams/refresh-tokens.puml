@@ -1,0 +1,44 @@
+@startuml
+
+'skinparam linetype polyline
+skinparam sequenceMessageAlign left
+skinparam nodesep 40
+'skinparam ranksep 10
+
+
+' Azure
+!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/master/dist
+!includeurl AzurePuml/AzureCommon.puml
+!includeurl AzurePuml/AzureSimplified.puml
+!includeurl AzurePuml/Identity/AzureActiveDirectoryUser.puml
+!includeurl AzurePuml/Identity/AzureEnterpriseApplication.puml
+!includeurl AzurePuml/Identity/AzureActiveDirectory.puml
+!includeurl AzurePuml/Analytics/AzureAnalysisServices.puml
+
+skinparam sequence {
+    ParticipantBorderColor #666666
+    ParticipantBackgroundColor AZURE_BG_COLOR
+    ParticipantPadding 50
+}
+
+skinparam SequenceLifeLineBorderColor AZURE_BORDER_COLOR
+skinparam MaxMessageSize 1500
+skinparam MaxAsciiMessageLength 1500
+
+
+participant user as "<$AzureActiveDirectoryUser,color=#0072C6>\nResource Owner\n(End-User)"
+participant client as "<$AzureEnterpriseApplication,color=#0072C6>\nClient Application\n(Azure CLI)"
+participant resource as "<$AzureAnalysisServices,color=#0072C6>\nResource Server\n(Microsoft Graph)"
+participant aad as "<$AzureActiveDirectory,color=#0072C6>\nAuthorization Server\n(Azure Active Directory)"
+
+autonumber
+client -x resource: Access token expires
+|||
+client -> aad: Redeems refresh token
+|||
+aad -> client: Returns new\naccess token & refresh token
+|||
+client -> resource: Bears access token in HTTP header
+
+@endumls
+

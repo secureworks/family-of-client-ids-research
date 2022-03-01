@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -e
+
+jupyter nbextension install --py jupytext --user
+jupytext --to notebook README.md
+jupytext --to notebook atte22.md

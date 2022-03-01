@@ -1,0 +1,32 @@
+@startuml
+
+skinparam linetype polyline
+'skinparam sequenceMessageAlign left
+skinparam nodesep 75
+skinparam ranksep 45
+
+' Azure
+!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/master/dist
+!includeurl AzurePuml/AzureCommon.puml
+!includeurl AzurePuml/AzureSimplified.puml
+!includeurl AzurePuml/Identity/AzureActiveDirectoryUser.puml
+!includeurl AzurePuml/Identity/AzureEnterpriseApplication.puml
+!includeurl AzurePuml/Identity/AzureActiveDirectory.puml
+!includeurl AzurePuml/Analytics/AzureAnalysisServices.puml
+
+skinparam MaxMessageSize 1500
+skinparam MaxAsciiMessageLength 1500
+
+AzureActiveDirectoryUser(resourceowner, "\nResource Owner\n(End-User)", "Global")
+AzureEnterpriseApplication(clientapp, "\nClient Application\n(Third-Party OAuth Apps)", "Global")
+AzureActiveDirectory(aad, "\nAuthorization Server\n(Azure Active Directory)", "Global")
+AzureAnalysisServices(resourceserver, "\nResource Server\n(Microsoft Graph)", "Global")
+
+resourceserver -[dotted]l---> aad: "Exposes API as scope"
+resourceserver <---d- clientapp: "   Bears tokens "
+clientapp -l---> resourceowner: "Requests consent   "
+resourceowner -u---> aad: "   Grants consent\n  to client for scope"
+aad ---> clientapp: "Issues Tokens"
+
+@endumls
+

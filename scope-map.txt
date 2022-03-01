@@ -1,0 +1,700 @@
+scope                                       resource                                                          client                              
+.default                                    04b07795-8ddb-461a-bbee-02f9e1bf7b46                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                            1950a258-227b-4e31-a9cf-717495945fc2                              1950a258-227b-4e31-a9cf-717495945fc2
+                                            1fec8e78-bce4-4aaf-ab1b-5451cc387264                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                            27922004-5251-4030-b22d-91ecd9a37ea4                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                            4813382a-8fa7-425e-ab75-3b753aab3abb                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                            ab9b8c07-8f02-4f72-87fa-80105867a763                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                            d3590ed6-52b3-4102-aeff-aad2292ab01c                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://$TENANTID----------------------------admin.sharepoint.com 00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              1950a258-227b-4e31-a9cf-717495945fc2
+                                                                                                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://$TENANTID----------------------------my.sharepoint.com    00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              1950a258-227b-4e31-a9cf-717495945fc2
+                                                                                                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://$TENANTID---------------------------.sharepoint.com       00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              1950a258-227b-4e31-a9cf-717495945fc2
+                                                                                                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://api.diagnostics.office.com                                00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              1950a258-227b-4e31-a9cf-717495945fc2
+                                                                                                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://api.spaces.skype.com                                      00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              1950a258-227b-4e31-a9cf-717495945fc2
+                                                                                                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              87749df4-7ccf-48f8-aa87-704bad0e0e16
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://graph.microsoft.com                                       00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              1950a258-227b-4e31-a9cf-717495945fc2
+                                                                                                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://graph.windows.net                                         00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              1950a258-227b-4e31-a9cf-717495945fc2
+                                                                                                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              2d7f3606-b07d-41d1-b9d2-0d0c9296a6e8
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              844cca35-0656-46ce-b636-13f48b0eecbd
+                                                                                                              87749df4-7ccf-48f8-aa87-704bad0e0e16
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                                                                                              cf36b471-5b44-428c-9ce7-313bf84528de
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://manage.office.com                                         00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              1950a258-227b-4e31-a9cf-717495945fc2
+                                                                                                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://management.core.windows.net                               00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              1950a258-227b-4e31-a9cf-717495945fc2
+                                                                                                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://msmamservice.api.application                              00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              1950a258-227b-4e31-a9cf-717495945fc2
+                                                                                                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              844cca35-0656-46ce-b636-13f48b0eecbd
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://officeapps.live.com                                       00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              1950a258-227b-4e31-a9cf-717495945fc2
+                                                                                                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office.com                                        00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              1950a258-227b-4e31-a9cf-717495945fc2
+                                                                                                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              1950a258-227b-4e31-a9cf-717495945fc2
+                                                                                                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://substrate.office.com                                      00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              1950a258-227b-4e31-a9cf-717495945fc2
+                                                                                                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://webshell.suite.office.com                                 00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              1950a258-227b-4e31-a9cf-717495945fc2
+                                                                                                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+62e90394-69f5-4237-9190-012177145e10        https://graph.windows.net                                         04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              1950a258-227b-4e31-a9cf-717495945fc2
+ActivityFeed-Internal.ReadWrite             https://substrate.office.com                                      d3590ed6-52b3-4102-aeff-aad2292ab01c
+Addins.ReadWrite                            https://outlook.office.com                                        27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://outlook.office365.com                                     27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://substrate.office.com                                      27922004-5251-4030-b22d-91ecd9a37ea4
+AdminApi.AccessAsUser.All                   https://outlook.office.com                                        00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                            https://outlook.office365.com                                     00b41c95-dab0-4487-9791-b9d2c32c80f2
+Apps.ReadWrite                              https://api.spaces.skype.com                                      27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+AuditLog.Read.All                           04b07795-8ddb-461a-bbee-02f9e1bf7b46                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                            d3590ed6-52b3-4102-aeff-aad2292ab01c                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://graph.microsoft.com                                       04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+Avery-Internal.Read                         https://outlook.office.com                                        27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://outlook.office365.com                                     27922004-5251-4030-b22d-91ecd9a37ea4
+Avery-Internal.ReadWrite                    https://outlook.office.com                                        27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://outlook.office365.com                                     27922004-5251-4030-b22d-91ecd9a37ea4
+BingCortana-Internal.ReadWrite              https://outlook.office.com                                        27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://outlook.office365.com                                     27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://substrate.office.com                                      27922004-5251-4030-b22d-91ecd9a37ea4
+Branford-Internal.ReadWrite                 https://outlook.office.com                                        d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     d3590ed6-52b3-4102-aeff-aad2292ab01c
+Calendar.ReadWrite                          d3590ed6-52b3-4102-aeff-aad2292ab01c                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://graph.microsoft.com                                       d3590ed6-52b3-4102-aeff-aad2292ab01c
+Calendars.Read.Shared                       d3590ed6-52b3-4102-aeff-aad2292ab01c                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://graph.microsoft.com                                       d3590ed6-52b3-4102-aeff-aad2292ab01c
+Calendars.ReadWrite                         d3590ed6-52b3-4102-aeff-aad2292ab01c                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://graph.microsoft.com                                       d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office.com                                        1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://substrate.office.com                                      26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+Calendars.ReadWrite.All                     https://outlook.office.com                                        27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://outlook.office365.com                                     27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://substrate.office.com                                      27922004-5251-4030-b22d-91ecd9a37ea4
+Calendars.ReadWrite.Shared                  https://outlook.office.com                                        d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     d3590ed6-52b3-4102-aeff-aad2292ab01c
+Channel.ReadBasic.All                       1fec8e78-bce4-4aaf-ab1b-5451cc387264                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                            https://graph.microsoft.com                                       1fec8e78-bce4-4aaf-ab1b-5451cc387264
+Collab-Internal.Read                        https://substrate.office.com                                      d3590ed6-52b3-4102-aeff-aad2292ab01c
+Contacts.Read                               https://graph.microsoft.com                                       00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                            https://outlook.office.com                                        00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                            https://outlook.office365.com                                     00b41c95-dab0-4487-9791-b9d2c32c80f2
+Contacts.ReadWrite                          d3590ed6-52b3-4102-aeff-aad2292ab01c                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://graph.microsoft.com                                       00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office.com                                        00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://substrate.office.com                                      27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+Contacts.ReadWrite.Shared                   1fec8e78-bce4-4aaf-ab1b-5451cc387264                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                            https://graph.microsoft.com                                       1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                            https://outlook.office.com                                        d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     d3590ed6-52b3-4102-aeff-aad2292ab01c
+Context.Read                                https://substrate.office.com                                      26a7ee05-5602-4d76-a7ba-eae8b7b67941
+CoreItem-Internal.Read                      https://substrate.office.com                                      d3590ed6-52b3-4102-aeff-aad2292ab01c
+DataLossPreventionPolicy.Evaluate           d3590ed6-52b3-4102-aeff-aad2292ab01c                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://graph.microsoft.com                                       d3590ed6-52b3-4102-aeff-aad2292ab01c
+DeviceManagementConfiguration.Read.All      d3590ed6-52b3-4102-aeff-aad2292ab01c                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://graph.microsoft.com                                       d3590ed6-52b3-4102-aeff-aad2292ab01c
+DeviceManagementConfiguration.ReadWrite.All d3590ed6-52b3-4102-aeff-aad2292ab01c                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://graph.microsoft.com                                       d3590ed6-52b3-4102-aeff-aad2292ab01c
+Directory.AccessAsUser.All                  04b07795-8ddb-461a-bbee-02f9e1bf7b46                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                            d3590ed6-52b3-4102-aeff-aad2292ab01c                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://graph.microsoft.com                                       00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+Directory.Read.All                          d3590ed6-52b3-4102-aeff-aad2292ab01c                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://graph.microsoft.com                                       d3590ed6-52b3-4102-aeff-aad2292ab01c
+Directory.ReadWrite.All                     https://outlook.office.com                                        27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://outlook.office365.com                                     27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://substrate.office.com                                      27922004-5251-4030-b22d-91ecd9a37ea4
+EAS.AccessAsUser.All                        https://outlook.office.com                                        27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://substrate.office.com                                      27922004-5251-4030-b22d-91ecd9a37ea4
+EWS.AccessAsUser.All                        https://outlook.office.com                                        00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://substrate.office.com                                      d3590ed6-52b3-4102-aeff-aad2292ab01c
+EopPolicySync.AccessAsUser.All              https://outlook.office.com                                        d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     d3590ed6-52b3-4102-aeff-aad2292ab01c
+EopPsorWs.AccessAsUser.All                  https://outlook.office.com                                        d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     d3590ed6-52b3-4102-aeff-aad2292ab01c
+Ews.AccessAsUser.All                        https://outlook.office.com                                        27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://outlook.office365.com                                     27922004-5251-4030-b22d-91ecd9a37ea4
+Files.Read                                  ab9b8c07-8f02-4f72-87fa-80105867a763                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                            d3590ed6-52b3-4102-aeff-aad2292ab01c                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://graph.microsoft.com                                       ab9b8c07-8f02-4f72-87fa-80105867a763
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://substrate.office.com                                      d3590ed6-52b3-4102-aeff-aad2292ab01c
+Files.Read.All                              d3590ed6-52b3-4102-aeff-aad2292ab01c                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://graph.microsoft.com                                       d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office.com                                        1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                            https://outlook.office365.com                                     1fec8e78-bce4-4aaf-ab1b-5451cc387264
+Files.Read.Shared                           https://substrate.office.com                                      26a7ee05-5602-4d76-a7ba-eae8b7b67941
+Files.ReadWrite                             https://$TENANTID----------------------------admin.sharepoint.com 27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://$TENANTID----------------------------my.sharepoint.com    27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://$TENANTID---------------------------.sharepoint.com       27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://graph.microsoft.com                                       26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                            https://outlook.office.com                                        27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://outlook.office365.com                                     27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://substrate.office.com                                      1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+Files.ReadWrite.All                         1fec8e78-bce4-4aaf-ab1b-5451cc387264                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                            27922004-5251-4030-b22d-91ecd9a37ea4                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                            d3590ed6-52b3-4102-aeff-aad2292ab01c                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://graph.microsoft.com                                       1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office.com                                        1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://substrate.office.com                                      d3590ed6-52b3-4102-aeff-aad2292ab01c
+Group.Read.All                              d3590ed6-52b3-4102-aeff-aad2292ab01c                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://graph.microsoft.com                                       d3590ed6-52b3-4102-aeff-aad2292ab01c
+Group.ReadWrite.All                         04b07795-8ddb-461a-bbee-02f9e1bf7b46                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                            d3590ed6-52b3-4102-aeff-aad2292ab01c                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://graph.microsoft.com                                       04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office.com                                        1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://substrate.office.com                                      27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+Intune.MAM.Registrations.Read.All           https://msmamservice.api.application                              00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              844cca35-0656-46ce-b636-13f48b0eecbd
+Intune.MAM.Registrations.Write.All          https://msmamservice.api.application                              00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              844cca35-0656-46ce-b636-13f48b0eecbd
+Locations-Internal.ReadWrite                https://substrate.office.com                                      27922004-5251-4030-b22d-91ecd9a37ea4
+Mail.Read                                   27922004-5251-4030-b22d-91ecd9a37ea4                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://graph.microsoft.com                                       27922004-5251-4030-b22d-91ecd9a37ea4
+Mail.Read.All                               https://substrate.office.com                                      d3590ed6-52b3-4102-aeff-aad2292ab01c
+Mail.Read.Shared                            27922004-5251-4030-b22d-91ecd9a37ea4                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://graph.microsoft.com                                       27922004-5251-4030-b22d-91ecd9a37ea4
+Mail.ReadWrite                              d3590ed6-52b3-4102-aeff-aad2292ab01c                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://graph.microsoft.com                                       00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office.com                                        00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://substrate.office.com                                      27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+Mail.ReadWrite.All                          https://graph.microsoft.com                                       00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                            https://outlook.office.com                                        00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                            https://outlook.office365.com                                     00b41c95-dab0-4487-9791-b9d2c32c80f2
+Mail.ReadWrite.Shared                       https://outlook.office.com                                        d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     d3590ed6-52b3-4102-aeff-aad2292ab01c
+Mail.Send                                   https://outlook.office.com                                        1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://substrate.office.com                                      27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+Mail.Send.Shared                            https://outlook.office.com                                        d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     d3590ed6-52b3-4102-aeff-aad2292ab01c
+MailboxSettings.ReadWrite                   1fec8e78-bce4-4aaf-ab1b-5451cc387264                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                            https://graph.microsoft.com                                       1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                            https://outlook.office.com                                        27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://substrate.office.com                                      27922004-5251-4030-b22d-91ecd9a37ea4
+MapiHttp.AccessAsUser.All                   https://outlook.office.com                                        d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://substrate.office.com                                      d3590ed6-52b3-4102-aeff-aad2292ab01c
+MessageReaction-Internal.Update             https://outlook.office.com                                        d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     d3590ed6-52b3-4102-aeff-aad2292ab01c
+MyFiles.Write                               https://$TENANTID----------------------------admin.sharepoint.com 1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                            https://$TENANTID----------------------------my.sharepoint.com    1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                            https://$TENANTID---------------------------.sharepoint.com       1fec8e78-bce4-4aaf-ab1b-5451cc387264
+Notes-Internal.ReadWrite                    https://substrate.office.com                                      1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+Notes.Create                                d3590ed6-52b3-4102-aeff-aad2292ab01c                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://graph.microsoft.com                                       d3590ed6-52b3-4102-aeff-aad2292ab01c
+Notes.Read                                  https://outlook.office.com                                        d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     d3590ed6-52b3-4102-aeff-aad2292ab01c
+Notes.ReadWrite                             https://outlook.office.com                                        d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://substrate.office.com                                      d3590ed6-52b3-4102-aeff-aad2292ab01c
+Notes.ReadWrite.All                         1fec8e78-bce4-4aaf-ab1b-5451cc387264                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                            https://graph.microsoft.com                                       1fec8e78-bce4-4aaf-ab1b-5451cc387264
+OWA.AccessAsUser.All                        https://outlook.office.com                                        1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://substrate.office.com                                      27922004-5251-4030-b22d-91ecd9a37ea4
+Oab.AccessAsUser.All                        https://outlook.office.com                                        d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     d3590ed6-52b3-4102-aeff-aad2292ab01c
+OfficeFeed-Internal.ReadWrite               https://substrate.office.com                                      1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+OfficeIntelligence-Internal.ReadWrite       https://substrate.office.com                                      d3590ed6-52b3-4102-aeff-aad2292ab01c
+OutlookService.AccessAsUser.All             https://outlook.office.com                                        27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+People.Read                                 1fec8e78-bce4-4aaf-ab1b-5451cc387264                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                            27922004-5251-4030-b22d-91ecd9a37ea4                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                            d3590ed6-52b3-4102-aeff-aad2292ab01c                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://graph.microsoft.com                                       00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office.com                                        00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://substrate.office.com                                      27922004-5251-4030-b22d-91ecd9a37ea4
+People.Read.All                             27922004-5251-4030-b22d-91ecd9a37ea4                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                            d3590ed6-52b3-4102-aeff-aad2292ab01c                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://graph.microsoft.com                                       27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office.com                                        27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://outlook.office365.com                                     27922004-5251-4030-b22d-91ecd9a37ea4
+People.ReadWrite                            https://graph.microsoft.com                                       00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                            https://outlook.office.com                                        00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://substrate.office.com                                      27922004-5251-4030-b22d-91ecd9a37ea4
+PeoplePredictions-Internal.Read             https://substrate.office.com                                      1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+Place.Read.All                              1fec8e78-bce4-4aaf-ab1b-5451cc387264                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                            https://graph.microsoft.com                                       1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                            https://outlook.office.com                                        d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://substrate.office.com                                      27922004-5251-4030-b22d-91ecd9a37ea4
+Presence.Read.All                           27922004-5251-4030-b22d-91ecd9a37ea4                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://graph.microsoft.com                                       27922004-5251-4030-b22d-91ecd9a37ea4
+Privilege.ELT                               https://outlook.office.com                                        27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://substrate.office.com                                      d3590ed6-52b3-4102-aeff-aad2292ab01c
+Region.ReadWrite                            https://api.spaces.skype.com                                      27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+RoamingSettings.ReadWrite                   https://outlook.office.com                                        27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://outlook.office365.com                                     27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://substrate.office.com                                      27922004-5251-4030-b22d-91ecd9a37ea4
+RoamingUserSettings.ReadWrite               https://substrate.office.com                                      d3590ed6-52b3-4102-aeff-aad2292ab01c
+SCIS-Internal.ReadWrite                     https://outlook.office.com                                        1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                            https://outlook.office365.com                                     1fec8e78-bce4-4aaf-ab1b-5451cc387264
+SensitiveInfoType.Detect                    d3590ed6-52b3-4102-aeff-aad2292ab01c                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://graph.microsoft.com                                       d3590ed6-52b3-4102-aeff-aad2292ab01c
+SensitiveInfoType.Read.All                  d3590ed6-52b3-4102-aeff-aad2292ab01c                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://graph.microsoft.com                                       d3590ed6-52b3-4102-aeff-aad2292ab01c
+SensitivityLabel.Evaluate                   d3590ed6-52b3-4102-aeff-aad2292ab01c                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://graph.microsoft.com                                       d3590ed6-52b3-4102-aeff-aad2292ab01c
+ServiceHealth.Read                          https://manage.office.com                                         d3590ed6-52b3-4102-aeff-aad2292ab01c
+ShellSettings.Read                          https://webshell.suite.office.com                                 1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+Signals-Internal.Read                       https://outlook.office.com                                        27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://outlook.office365.com                                     27922004-5251-4030-b22d-91ecd9a37ea4
+Signals-Internal.ReadWrite                  https://outlook.office.com                                        27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://outlook.office365.com                                     27922004-5251-4030-b22d-91ecd9a37ea4
+Signals.Read                                https://outlook.office.com                                        27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://substrate.office.com                                      d3590ed6-52b3-4102-aeff-aad2292ab01c
+Signals.ReadWrite                           https://outlook.office.com                                        1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://substrate.office.com                                      d3590ed6-52b3-4102-aeff-aad2292ab01c
+Sites.FullControl.All                       https://$TENANTID----------------------------admin.sharepoint.com 1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                            https://$TENANTID----------------------------my.sharepoint.com    1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                            https://$TENANTID---------------------------.sharepoint.com       1fec8e78-bce4-4aaf-ab1b-5451cc387264
+Sites.Manage.All                            https://$TENANTID----------------------------admin.sharepoint.com 1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                            https://$TENANTID----------------------------my.sharepoint.com    1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                            https://$TENANTID---------------------------.sharepoint.com       1fec8e78-bce4-4aaf-ab1b-5451cc387264
+Sites.Read.All                              ab9b8c07-8f02-4f72-87fa-80105867a763                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                            https://graph.microsoft.com                                       ab9b8c07-8f02-4f72-87fa-80105867a763
+Sites.ReadWrite.All                         1fec8e78-bce4-4aaf-ab1b-5451cc387264                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                            27922004-5251-4030-b22d-91ecd9a37ea4                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://$TENANTID----------------------------admin.sharepoint.com 27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://$TENANTID----------------------------my.sharepoint.com    27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://$TENANTID---------------------------.sharepoint.com       27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://graph.microsoft.com                                       1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+SubstrateSearch-Internal.ReadWrite          https://outlook.office.com                                        1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://substrate.office.com                                      1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+SubstrateTeeInferences-Internal.ReadWrite   https://substrate.office.com                                      27922004-5251-4030-b22d-91ecd9a37ea4
+Tags.ReadWrite                              https://outlook.office.com                                        d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://substrate.office.com                                      d3590ed6-52b3-4102-aeff-aad2292ab01c
+TailoredExperiences-Internal.Read           https://outlook.office.com                                        27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://outlook.office365.com                                     27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://substrate.office.com                                      27922004-5251-4030-b22d-91ecd9a37ea4
+TailoredExperiences-Internal.ReadWrite      https://outlook.office.com                                        27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://outlook.office365.com                                     27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://substrate.office.com                                      27922004-5251-4030-b22d-91ecd9a37ea4
+Tasks.ReadWrite                             1fec8e78-bce4-4aaf-ab1b-5451cc387264                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                            https://graph.microsoft.com                                       00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                            https://outlook.office.com                                        27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://substrate.office.com                                      d3590ed6-52b3-4102-aeff-aad2292ab01c
+Tasks.ReadWrite.Shared                      https://outlook.office.com                                        d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     d3590ed6-52b3-4102-aeff-aad2292ab01c
+Todo-Internal.ReadWrite                     https://outlook.office.com                                        d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://substrate.office.com                                      27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+User-Internal.Read                          https://substrate.office.com                                      d3590ed6-52b3-4102-aeff-aad2292ab01c
+User-Internal.ReadWrite                     https://outlook.office.com                                        27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://substrate.office.com                                      27922004-5251-4030-b22d-91ecd9a37ea4
+User.Read                                   ab9b8c07-8f02-4f72-87fa-80105867a763                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                            https://graph.microsoft.com                                       26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                            https://outlook.office.com                                        1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                            https://outlook.office365.com                                     1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                            https://substrate.office.com                                      27922004-5251-4030-b22d-91ecd9a37ea4
+User.Read.All                               d3590ed6-52b3-4102-aeff-aad2292ab01c                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://$TENANTID----------------------------admin.sharepoint.com 27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://$TENANTID----------------------------my.sharepoint.com    27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://$TENANTID---------------------------.sharepoint.com       27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://graph.microsoft.com                                       d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office.com                                        27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://outlook.office365.com                                     27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://substrate.office.com                                      26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+User.ReadBasic                              https://outlook.office.com                                        d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     d3590ed6-52b3-4102-aeff-aad2292ab01c
+User.ReadBasic.All                          1fec8e78-bce4-4aaf-ab1b-5451cc387264                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                            27922004-5251-4030-b22d-91ecd9a37ea4                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                            d3590ed6-52b3-4102-aeff-aad2292ab01c                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://graph.microsoft.com                                       1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office.com                                        1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+User.ReadWrite                              d3590ed6-52b3-4102-aeff-aad2292ab01c                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://graph.microsoft.com                                       00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office.com                                        00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                            https://outlook.office365.com                                     00b41c95-dab0-4487-9791-b9d2c32c80f2
+User.ReadWrite.All                          04b07795-8ddb-461a-bbee-02f9e1bf7b46                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                            https://$TENANTID----------------------------admin.sharepoint.com 1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                            https://$TENANTID----------------------------my.sharepoint.com    1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                            https://$TENANTID---------------------------.sharepoint.com       1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                            https://graph.microsoft.com                                       00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                            https://outlook.office.com                                        00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                            https://outlook.office365.com                                     00b41c95-dab0-4487-9791-b9d2c32c80f2
+UserActivity.ReadWrite                      https://outlook.office.com                                        27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://outlook.office365.com                                     27922004-5251-4030-b22d-91ecd9a37ea4
+UserAuthenticationMethod.Read               4813382a-8fa7-425e-ab75-3b753aab3abb                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                            https://graph.microsoft.com                                       4813382a-8fa7-425e-ab75-3b753aab3abb
+UserAuthenticationMethod.ReadWrite          27922004-5251-4030-b22d-91ecd9a37ea4                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                            https://graph.microsoft.com                                       27922004-5251-4030-b22d-91ecd9a37ea4
+UserProfile.Read                            https://graph.windows.net                                         1fec8e78-bce4-4aaf-ab1b-5451cc387264
+Users.Read                                  d3590ed6-52b3-4102-aeff-aad2292ab01c                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://graph.microsoft.com                                       d3590ed6-52b3-4102-aeff-aad2292ab01c
+WI840696                                    https://outlook.office.com                                        1950a258-227b-4e31-a9cf-717495945fc2
+                                            https://outlook.office365.com                                     1950a258-227b-4e31-a9cf-717495945fc2
+blocked                                     https://outlook.office.com                                        1950a258-227b-4e31-a9cf-717495945fc2
+                                            https://outlook.office365.com                                     1950a258-227b-4e31-a9cf-717495945fc2
+email                                       https://graph.microsoft.com                                       00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              1950a258-227b-4e31-a9cf-717495945fc2
+                                                                                                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+exoauthsec                                  https://outlook.office.com                                        1950a258-227b-4e31-a9cf-717495945fc2
+                                            https://outlook.office365.com                                     1950a258-227b-4e31-a9cf-717495945fc2
+full_access_as_user                         https://substrate.office.com                                      27922004-5251-4030-b22d-91ecd9a37ea4
+openid                                      https://graph.microsoft.com                                       00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              1950a258-227b-4e31-a9cf-717495945fc2
+                                                                                                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+profile                                     https://graph.microsoft.com                                       00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              1950a258-227b-4e31-a9cf-717495945fc2
+                                                                                                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+read                                        https://api.diagnostics.office.com                                1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+user_impersonation                          1950a258-227b-4e31-a9cf-717495945fc2                              1950a258-227b-4e31-a9cf-717495945fc2
+                                            https://$TENANTID----------------------------admin.sharepoint.com 00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              1950a258-227b-4e31-a9cf-717495945fc2
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://$TENANTID----------------------------my.sharepoint.com    00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              1950a258-227b-4e31-a9cf-717495945fc2
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://$TENANTID---------------------------.sharepoint.com       00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              1950a258-227b-4e31-a9cf-717495945fc2
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://api.diagnostics.office.com                                00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              1950a258-227b-4e31-a9cf-717495945fc2
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                            https://api.spaces.skype.com                                      00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              1950a258-227b-4e31-a9cf-717495945fc2
+                                                                                                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              87749df4-7ccf-48f8-aa87-704bad0e0e16
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                            https://graph.microsoft.com                                       1950a258-227b-4e31-a9cf-717495945fc2
+                                            https://graph.windows.net                                         00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              2d7f3606-b07d-41d1-b9d2-0d0c9296a6e8
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              844cca35-0656-46ce-b636-13f48b0eecbd
+                                                                                                              87749df4-7ccf-48f8-aa87-704bad0e0e16
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                                                                                              cf36b471-5b44-428c-9ce7-313bf84528de
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://manage.office.com                                         00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              1950a258-227b-4e31-a9cf-717495945fc2
+                                                                                                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                            https://management.core.windows.net                               00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              1950a258-227b-4e31-a9cf-717495945fc2
+                                                                                                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://msmamservice.api.application                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              1950a258-227b-4e31-a9cf-717495945fc2
+                                                                                                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://officeapps.live.com                                       00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              1950a258-227b-4e31-a9cf-717495945fc2
+                                                                                                              1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office.com                                        04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://outlook.office365.com                                     04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://substrate.office.com                                      00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              1950a258-227b-4e31-a9cf-717495945fc2
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c
+                                            https://webshell.suite.office.com                                 00b41c95-dab0-4487-9791-b9d2c32c80f2
+                                                                                                              04b07795-8ddb-461a-bbee-02f9e1bf7b46
+                                                                                                              1950a258-227b-4e31-a9cf-717495945fc2
+                                                                                                              26a7ee05-5602-4d76-a7ba-eae8b7b67941
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              4813382a-8fa7-425e-ab75-3b753aab3abb
+                                                                                                              ab9b8c07-8f02-4f72-87fa-80105867a763
+write                                       https://api.diagnostics.office.com                                1fec8e78-bce4-4aaf-ab1b-5451cc387264
+                                                                                                              27922004-5251-4030-b22d-91ecd9a37ea4
+                                                                                                              d3590ed6-52b3-4102-aeff-aad2292ab01c

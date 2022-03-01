@@ -1,0 +1,5 @@
+msal
+pyjwt
+requests
+jupytext
+pandas

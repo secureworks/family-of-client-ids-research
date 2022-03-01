@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="487px" preserveAspectRatio="none" style="width:917px;height:487px;background:#FFFFFF;" version="1.1" viewBox="0 0 917 487" width="917px" zoomAndPan="magnify"><defs><filter height="300%" id="f1uvfk6x8fvnj8" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><line style="stroke:#3C7FC0;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="113" x2="113" y1="129.2188" y2="355.6875"/><line style="stroke:#3C7FC0;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="340" x2="340" y1="129.2188" y2="355.6875"/><line style="stroke:#3C7FC0;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="573" x2="573" y1="129.2188" y2="355.6875"/><line style="stroke:#3C7FC0;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="823" x2="823" y1="129.2188" y2="355.6875"/><rect fill="#FFFFFF" filter="url(#f1uvfk6x8fvnj8)" height="119.2188" style="stroke:#666666;stroke-width:1.5;" width="120" x="51" y="5"/><image height="70" width="70" x="76" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAIAAAD+THXTAAACqUlEQVR42uWZvUpEMRCFz1v7Cr6Cr2BtJ9jaWFgLFiIWgoqFiIWgA4EQsze5yfzduesyxeK62Xx3MifJHPyYve5fv24ePy7v3s9vXyjOrp/TG/oLffT2+W30u1AfkeaaMIihH/Q/xBYdiWBWSazBoLjMRjLTCnoWsZCoZtgwZbpUCgybLDZTKkTIT0W1JRLVjy6PSl2JkCR60A+JBiLOkqtiAyS7FKWgR+aKZJ0iSaIQM0WSimIiOfCw1x7iaLfWHoWwhcQuJw6S4gnoOJFOr546EQupP9fB8ENSmW4gJJIHHx6/WiIR90HyE3F6+SDxbhn8A5EDEu+Gyz+2xiwk0eXCGsn7cuGQqG0u6pL99OTioRPbXNRTr5gx3dUQNokUml5CgCokXQe11qQilaSE9BvIEfKj3+aXVFGsNj+JBGUp+2KMxZZ9tO2RaBLV3YnwUmdiEIa+Tl/J/SZ6w95hpUjlPKqeDn2UIqUu7V2ZIZ10sreZH4FWX1L/VpvclKloNWfY7iBUklP1E6eQ+gMyZANTlTNopYzzjIw5S4XxnWfKyRuMwc7M1BEJujyHItEPi84rtNYbI1GzT2qQCqt6wDYdhMLArisYmS6rIsH2Cla3LNg1ilWEoTUyB4m95AZFws6kgZ3P1xEJuZ3TWX4wNcVaIqHii84haVmxiyKh9bxa6ofxJgmvvbgoDKa9S1h7LYdrT8t6arUvodudW3QfKmGwbjLDwWiphEF38MM7FRwsiXKDcvCg4NC8zyJh5Ij2kCyeYikSulXaWnvwMSNSI8HHLISbt2c6eBPJzfo3tUD/IOl6EJ5RlhPKHWm/SGU5wc4p8ozyGIHyaLdfpFIhUMrdfpEoFpAYPkqoyKJ3PEj/o5Z2vS+Vd0FUl6U98lT3C+i6yNtusun1CyFbZ3OL1XCeAAAAAElFTkSuQmCC" y="12"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="58" y="96.5332">Resource Owner</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="76.5" y="114.1426">(End-User)</text><rect fill="#FFFFFF" filter="url(#f1uvfk6x8fvnj8)" height="119.2188" style="stroke:#666666;stroke-width:1.5;" width="120" x="51" y="354.6875"/><image height="70" width="70" x="76" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAIAAAD+THXTAAACqUlEQVR42uWZvUpEMRCFz1v7Cr6Cr2BtJ9jaWFgLFiIWgoqFiIWgA4EQsze5yfzduesyxeK62Xx3MifJHPyYve5fv24ePy7v3s9vXyjOrp/TG/oLffT2+W30u1AfkeaaMIihH/Q/xBYdiWBWSazBoLjMRjLTCnoWsZCoZtgwZbpUCgybLDZTKkTIT0W1JRLVjy6PSl2JkCR60A+JBiLOkqtiAyS7FKWgR+aKZJ0iSaIQM0WSimIiOfCw1x7iaLfWHoWwhcQuJw6S4gnoOJFOr546EQupP9fB8ENSmW4gJJIHHx6/WiIR90HyE3F6+SDxbhn8A5EDEu+Gyz+2xiwk0eXCGsn7cuGQqG0u6pL99OTioRPbXNRTr5gx3dUQNokUml5CgCokXQe11qQilaSE9BvIEfKj3+aXVFGsNj+JBGUp+2KMxZZ9tO2RaBLV3YnwUmdiEIa+Tl/J/SZ6w95hpUjlPKqeDn2UIqUu7V2ZIZ10sreZH4FWX1L/VpvclKloNWfY7iBUklP1E6eQ+gMyZANTlTNopYzzjIw5S4XxnWfKyRuMwc7M1BEJujyHItEPi84rtNYbI1GzT2qQCqt6wDYdhMLArisYmS6rIsH2Cla3LNg1ilWEoTUyB4m95AZFws6kgZ3P1xEJuZ3TWX4wNcVaIqHii84haVmxiyKh9bxa6ofxJgmvvbgoDKa9S1h7LYdrT8t6arUvodudW3QfKmGwbjLDwWiphEF38MM7FRwsiXKDcvCg4NC8zyJh5Ij2kCyeYikSulXaWnvwMSNSI8HHLISbt2c6eBPJzfo3tUD/IOl6EJ5RlhPKHWm/SGU5wc4p8ozyGIHyaLdfpFIhUMrdfpEoFpAYPkqoyKJ3PEj/o5Z2vS+Vd0FUl6U98lT3C+i6yNtusun1CyFbZ3OL1XCeAAAAAElFTkSuQmCC" y="361.6875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="58" y="446.2207">Resource Owner</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="76.5" y="463.8301">(End-User)</text><rect fill="#FFFFFF" filter="url(#f1uvfk6x8fvnj8)" height="119.2188" style="stroke:#666666;stroke-width:1.5;" width="123" x="277" y="5"/><image height="70" width="70" x="303.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAIAAAD+THXTAAACnElEQVR42u2bsU4DMQyG+5K8Aq/AK/AKjKywslViZWFgpVIHhBiQKOqAEAMS/JKlX26S69nXktwdrixUovNdvtjJxY67+JndZzFnpPvnj6uHN7tQ0aWV6OKhIsvVNpdEa735ciDhpue3Ly7hLbyKF3evg3UtVAuOtPfu75/f9ZFgukAKpPpIemn5QyR0MZACKZACKZCmiuTVDaRAIhL2TnNDwgdddAkVEcMwkrOIjnkGP/S/BupzQ4J/n908uYRu4FVkkA8P9Oo65lIgBVIgBdKYkHCHQAqkQAqkQAqksSKhD/sDZLnGgXR6vXaJRnIpaiT8K2O/XG15wrk/i4ZrTEi4dDCSVxcM2koAyIN5MVcX2/5z2yPkHryK1OUxczFFIe1yCJ0job2LqlmgLh3FX0sGJvdGaSk64WJYlkffy6uIZ0mODX3qMlGRSkoFqCVfclsdYS55FZnNs/MURdwPkiTDWiIdwqMdMjmTro0k7yXOcnrUMKNRUbtfbSSdRpa5oVuMVDIKYiKOSxskbaLiO8eyAOrVj9MJX9ifqkiWEwCLs+mlXBr1gj4uJN3LPSJWSvi5o50kEuvsepBOLh9dQiTj9UYk+34ib6mNpNeGw5GKIl2aqpVyE3EbMTqkYbskeefuOB68YqJI3Hw0QIJYkLww+cl0PcczrhB2KyWhYfqqxY0qIFl8z76IdxUt7NSJu6qBBtcuHG6oPMjVybDagbqlIL24JdeJinzodRTYIPdg8YWESpsld7lyCFjzgxE11uUU3SwZkTxZ2SZDZPw9BPNeXSEWWvIqnGZJL9ek4i9JenkaF9ysN1/GecXoldd38bSvIUK37LVvAtb7M4VRlEUZzSUwvSVsI6r0Ql+LGXCmgSZfj2evKZx/Pd4vIWYseF1fR0MAAAAASUVORK5CYII=" y="12"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="284" y="96.5332">Client Application</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="303" y="114.1426">(Azure CLI)</text><rect fill="#FFFFFF" filter="url(#f1uvfk6x8fvnj8)" height="119.2188" style="stroke:#666666;stroke-width:1.5;" width="123" x="277" y="354.6875"/><image height="70" width="70" x="303.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAIAAAD+THXTAAACnElEQVR42u2bsU4DMQyG+5K8Aq/AK/AKjKywslViZWFgpVIHhBiQKOqAEAMS/JKlX26S69nXktwdrixUovNdvtjJxY67+JndZzFnpPvnj6uHN7tQ0aWV6OKhIsvVNpdEa735ciDhpue3Ly7hLbyKF3evg3UtVAuOtPfu75/f9ZFgukAKpPpIemn5QyR0MZACKZACKZCmiuTVDaRAIhL2TnNDwgdddAkVEcMwkrOIjnkGP/S/BupzQ4J/n908uYRu4FVkkA8P9Oo65lIgBVIgBdKYkHCHQAqkQAqkQAqksSKhD/sDZLnGgXR6vXaJRnIpaiT8K2O/XG15wrk/i4ZrTEi4dDCSVxcM2koAyIN5MVcX2/5z2yPkHryK1OUxczFFIe1yCJ0job2LqlmgLh3FX0sGJvdGaSk64WJYlkffy6uIZ0mODX3qMlGRSkoFqCVfclsdYS55FZnNs/MURdwPkiTDWiIdwqMdMjmTro0k7yXOcnrUMKNRUbtfbSSdRpa5oVuMVDIKYiKOSxskbaLiO8eyAOrVj9MJX9ifqkiWEwCLs+mlXBr1gj4uJN3LPSJWSvi5o50kEuvsepBOLh9dQiTj9UYk+34ib6mNpNeGw5GKIl2aqpVyE3EbMTqkYbskeefuOB68YqJI3Hw0QIJYkLww+cl0PcczrhB2KyWhYfqqxY0qIFl8z76IdxUt7NSJu6qBBtcuHG6oPMjVybDagbqlIL24JdeJinzodRTYIPdg8YWESpsld7lyCFjzgxE11uUU3SwZkTxZ2SZDZPw9BPNeXSEWWvIqnGZJL9ek4i9JenkaF9ysN1/GecXoldd38bSvIUK37LVvAtb7M4VRlEUZzSUwvSVsI6r0Ql+LGXCmgSZfj2evKZx/Pd4vIWYseF1fR0MAAAAASUVORK5CYII=" y="361.6875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="284" y="446.2207">Client Application</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="303" y="463.8301">(Azure CLI)</text><rect fill="#FFFFFF" filter="url(#f1uvfk6x8fvnj8)" height="119.2188" style="stroke:#666666;stroke-width:1.5;" width="125" x="509" y="5"/><image height="70" width="70" x="536.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAIAAAD+THXTAAACoklEQVR42u2avUoEMRDH9yV9BV/BV/AVLG21tRNsbSxsFa4QsRBULEQsBP3DwJBLdibZ7OxuorMMh5czm/x2vi83/Py5a3AkR3IkR3IkR3KkFZDObl9Orp+tBHfbHsmQh8SRHOmfIh1fPdlKB0g3jx9vn9/4T7zi7+6Rdq9f0TSMdIwkJRmM94qUqqhEUdsjHV08SCIhwaOUWU0jXd6/S4Z3cHoHOTzfVSMh2FjJBCTJikBCSCwhWwkP9G+bDAksjwSJUidmYgTjKRWzhY9NumC6tkjkI0VIDAaB0iJLw9tRNspmChJMemMk3veo80hgGOTFlkaiJziwY5RIuFFdABmxYQQRJTTIzpDI5cCQqo4NEki2heXiSFFkS22SI6pSuLBW6SatIIUhDguP+lthIaZT7SHhDW6RFd4QLSmJHujw4GFyqbOR3vSSSq/C9pDKkz2tbdLk4SZKkJRmGSNx0WBSxUGfaYZgK1CQpDRTicQGY4uUpj7JTJTMWYnEsauk5KlGgoyWy+kUAySsREvqMWCm4ZGioiUoqNgjIebQkvO/UiUkKUJw1uJgmy3ZKpFwZT14qg1LHcpUIVutQZof9Kg9SWFmSh5J6h854U7tN6N22BAmj6Q3ZxzHwVZSIHPsimCsSIqQ9LOZsCwqLPuxWFQiYoTq9LaQuNUtUSnDcKik7sNQtFPA7AlaWIwVwpjE/fqDzeyz511KaoyyzZpnGSKS3mzxjpWPwl5ofvW0ONJovzkKQ9I6UlrdYcdRQIs68KaRJK+gcjaF6QBJ+oqcOhlp1vZIStmrI0nSNJKUWxAkekWS9ke5tVek9GhQ5+kAKew3szA9IU2S7ZH4cMVKHMmRCn3JFmmDHwmkpYBhsyn9cmJVpK4vR3IkR3IkR3Kklq5f82eDAHLUpLAAAAAASUVORK5CYII=" y="12"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="518" y="96.5332">Resource Server</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="516" y="114.1426">(Microsoft Graph)</text><rect fill="#FFFFFF" filter="url(#f1uvfk6x8fvnj8)" height="119.2188" style="stroke:#666666;stroke-width:1.5;" width="125" x="509" y="354.6875"/><image height="70" width="70" x="536.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAIAAAD+THXTAAACoklEQVR42u2avUoEMRDH9yV9BV/BV/AVLG21tRNsbSxsFa4QsRBULEQsBP3DwJBLdibZ7OxuorMMh5czm/x2vi83/Py5a3AkR3IkR3IkR3KkFZDObl9Orp+tBHfbHsmQh8SRHOmfIh1fPdlKB0g3jx9vn9/4T7zi7+6Rdq9f0TSMdIwkJRmM94qUqqhEUdsjHV08SCIhwaOUWU0jXd6/S4Z3cHoHOTzfVSMh2FjJBCTJikBCSCwhWwkP9G+bDAksjwSJUidmYgTjKRWzhY9NumC6tkjkI0VIDAaB0iJLw9tRNspmChJMemMk3veo80hgGOTFlkaiJziwY5RIuFFdABmxYQQRJTTIzpDI5cCQqo4NEki2heXiSFFkS22SI6pSuLBW6SatIIUhDguP+lthIaZT7SHhDW6RFd4QLSmJHujw4GFyqbOR3vSSSq/C9pDKkz2tbdLk4SZKkJRmGSNx0WBSxUGfaYZgK1CQpDRTicQGY4uUpj7JTJTMWYnEsauk5KlGgoyWy+kUAySsREvqMWCm4ZGioiUoqNgjIebQkvO/UiUkKUJw1uJgmy3ZKpFwZT14qg1LHcpUIVutQZof9Kg9SWFmSh5J6h854U7tN6N22BAmj6Q3ZxzHwVZSIHPsimCsSIqQ9LOZsCwqLPuxWFQiYoTq9LaQuNUtUSnDcKik7sNQtFPA7AlaWIwVwpjE/fqDzeyz511KaoyyzZpnGSKS3mzxjpWPwl5ofvW0ONJovzkKQ9I6UlrdYcdRQIs68KaRJK+gcjaF6QBJ+oqcOhlp1vZIStmrI0nSNJKUWxAkekWS9ke5tVek9GhQ5+kAKew3szA9IU2S7ZH4cMVKHMmRCn3JFmmDHwmkpYBhsyn9cmJVpK4vR3IkR3IkR3Kklq5f82eDAHLUpLAAAAAASUVORK5CYII=" y="361.6875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="518" y="446.2207">Resource Server</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="516" y="463.8301">(Microsoft Graph)</text><rect fill="#FFFFFF" filter="url(#f1uvfk6x8fvnj8)" height="119.2188" style="stroke:#666666;stroke-width:1.5;" width="163" x="740" y="5"/><image height="70" width="70" x="786.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAIAAAD+THXTAAAC/klEQVR42u3bv2ocMRAG8O9p8wp5Bb9CXiFp0xncpknhOuAiBBcG26QIIYUhGRARQiONpPmjuz1umcKF79jfze2n3dk9/L24DVfSlfR/e/39RnU5JMLcfvv54cvTHtUOEnkSieoSSF9//CpJH++fj03Knkyior+PSnp4+ZM9JYmKqMcjpUjokagIfCQS93BSXACGkLinSQpSITQShqSIAMQeT48UoUJcxE2S3GMdezwyyTfWERdxk6Sbu8dUXrGOuIgbkjImlVcAYo+nIlUYXxXiIq5J6mFK1SlJw0goa4jJZYx17PEskagssY64iLOQqNSxjtBIsJDUsY49Hh2JShGAiIs4F5JChT0eBen95++pVmMdcRGnJmWMToW4iFOQOCbX/GKFPZ4hScDkmox1xEVcWbQ3FkyumVhHXCTQC6loJ6h6pCVPqmEAwtdTMsoSurRqG8Y67BHXYyyRlnj0PxqSHAkzDDVphifEOiY9ybDEcCH1eO8+PfRiHULEGRnuJM5rXoOg2SIXRihJuASGkHVnTlr74uXE84L5kuSpCypAE3ZWJL6T1K5ysQJfgvhJh/3ociHxI6d626RCL7J5Zy3fQzup+qBp96oRWl6CISypju2ykHgMVOf11RKM4Vlcs117SDwGms2pCjOXQ/yIXG2XgsSXUaE5uUW0Y5g/6bYcXUskHgP0DjKmTEIsXb2q2zVP6mW0cBZbfQRQXFMo2jVD4jFQvarZHJ5h0A0bmouyoBqS+J4Nm6M8IZJh8ykvkOTm9C4BhSEEjLOhyXOoJmmY0brp19SEyN4uTuKfRZnRuqnD8mhSTvleuxKsJDUzOjend2U+f8dpbSaublcmCTEgjBmWJv2amzG6RZkfA+UCapywOtwyU7RL0ZwT3H5WtKvMaGFMZ3msw/qQwFLKlxltv0MR+3TKTLtyRgc1x/+xqGG7vG4fndHzeOqx/YlJvXZRE4wL6ClJzXZxkntzwklVuyrSIZ8TrxblTNrws4t9v4yJbs5W0ubtSjrC9g+57VfaxemlogAAAABJRU5ErkJggg==" y="12"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="757.5" y="96.5332">Authorization Server</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="747" y="114.1426">(Azure Active Directory)</text><rect fill="#FFFFFF" filter="url(#f1uvfk6x8fvnj8)" height="119.2188" style="stroke:#666666;stroke-width:1.5;" width="163" x="740" y="354.6875"/><image height="70" width="70" x="786.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAIAAAD+THXTAAAC/klEQVR42u3bv2ocMRAG8O9p8wp5Bb9CXiFp0xncpknhOuAiBBcG26QIIYUhGRARQiONpPmjuz1umcKF79jfze2n3dk9/L24DVfSlfR/e/39RnU5JMLcfvv54cvTHtUOEnkSieoSSF9//CpJH++fj03Knkyior+PSnp4+ZM9JYmKqMcjpUjokagIfCQS93BSXACGkLinSQpSITQShqSIAMQeT48UoUJcxE2S3GMdezwyyTfWERdxk6Sbu8dUXrGOuIgbkjImlVcAYo+nIlUYXxXiIq5J6mFK1SlJw0goa4jJZYx17PEskagssY64iLOQqNSxjtBIsJDUsY49Hh2JShGAiIs4F5JChT0eBen95++pVmMdcRGnJmWMToW4iFOQOCbX/GKFPZ4hScDkmox1xEVcWbQ3FkyumVhHXCTQC6loJ6h6pCVPqmEAwtdTMsoSurRqG8Y67BHXYyyRlnj0PxqSHAkzDDVphifEOiY9ybDEcCH1eO8+PfRiHULEGRnuJM5rXoOg2SIXRihJuASGkHVnTlr74uXE84L5kuSpCypAE3ZWJL6T1K5ysQJfgvhJh/3ociHxI6d626RCL7J5Zy3fQzup+qBp96oRWl6CISypju2ykHgMVOf11RKM4Vlcs117SDwGms2pCjOXQ/yIXG2XgsSXUaE5uUW0Y5g/6bYcXUskHgP0DjKmTEIsXb2q2zVP6mW0cBZbfQRQXFMo2jVD4jFQvarZHJ5h0A0bmouyoBqS+J4Nm6M8IZJh8ykvkOTm9C4BhSEEjLOhyXOoJmmY0brp19SEyN4uTuKfRZnRuqnD8mhSTvleuxKsJDUzOjend2U+f8dpbSaublcmCTEgjBmWJv2amzG6RZkfA+UCapywOtwyU7RL0ZwT3H5WtKvMaGFMZ3msw/qQwFLKlxltv0MR+3TKTLtyRgc1x/+xqGG7vG4fndHzeOqx/YlJvXZRE4wL6ClJzXZxkntzwklVuyrSIZ8TrxblTNrws4t9v4yJbs5W0ubtSjrC9g+57VfaxemlogAAAABJRU5ErkJggg==" y="361.6875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="757.5" y="446.2207">Authorization Server</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="747" y="463.8301">(Azure Active Directory)</text><line style="stroke:#666666;stroke-width:2.0;" x1="555.5" x2="565.5" y1="155.3125" y2="165.3125"/><line style="stroke:#666666;stroke-width:2.0;" x1="555.5" x2="565.5" y1="165.3125" y2="155.3125"/><line style="stroke:#666666;stroke-width:1.0;" x1="340.5" x2="560.5" y1="160.3125" y2="160.3125"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="7" x="347.5" y="155.6758">1</text><text fill="#666666" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="116" x="358.5" y="155.6758">Access token expires</text><polygon fill="#666666" points="811.5,210.4063,821.5,214.4063,811.5,218.4063,815.5,214.4063" style="stroke:#666666;stroke-width:1.0;"/><line style="stroke:#666666;stroke-width:1.0;" x1="340.5" x2="817.5" y1="214.4063" y2="214.4063"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="7" x="347.5" y="209.7695">2</text><text fill="#666666" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="130" x="358.5" y="209.7695">Redeems refresh token</text><polygon fill="#666666" points="351.5,279.5938,341.5,283.5938,351.5,287.5938,347.5,283.5938" style="stroke:#666666;stroke-width:1.0;"/><line style="stroke:#666666;stroke-width:1.0;" x1="345.5" x2="822.5" y1="283.5938" y2="283.5938"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="7" x="357.5" y="271.4102">3</text><text fill="#666666" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="368.5" y="263.8633">Returns new</text><text fill="#666666" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="159" x="368.5" y="278.957">access token &amp; refresh token</text><polygon fill="#666666" points="561.5,333.6875,571.5,337.6875,561.5,341.6875,565.5,337.6875" style="stroke:#666666;stroke-width:1.0;"/><line style="stroke:#666666;stroke-width:1.0;" x1="340.5" x2="567.5" y1="337.6875" y2="337.6875"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="7" x="347.5" y="333.0508">4</text><text fill="#666666" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="198" x="358.5" y="333.0508">Bears access token in HTTP header</text><!--MD5=[5c86b45bec00c237433a1375ea06b0d6]
+@startuml
+
+'skinparam linetype polyline
+skinparam sequenceMessageAlign left
+skinparam nodesep 40
+'skinparam ranksep 10
+
+
+' Azure
+!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/master/dist
+!includeurl AzurePuml/AzureCommon.puml
+!includeurl AzurePuml/AzureSimplified.puml
+!includeurl AzurePuml/Identity/AzureActiveDirectoryUser.puml
+!includeurl AzurePuml/Identity/AzureEnterpriseApplication.puml
+!includeurl AzurePuml/Identity/AzureActiveDirectory.puml
+!includeurl AzurePuml/Analytics/AzureAnalysisServices.puml
+
+skinparam sequence {
+    ParticipantBorderColor #666666
+    ParticipantBackgroundColor AZURE_BG_COLOR
+    ParticipantPadding 50
+}
+
+skinparam SequenceLifeLineBorderColor AZURE_BORDER_COLOR
+skinparam MaxMessageSize 1500
+skinparam MaxAsciiMessageLength 1500
+
+
+participant user as "<$AzureActiveDirectoryUser,color=#0072C6>\nResource Owner\n(End-User)"
+participant client as "<$AzureEnterpriseApplication,color=#0072C6>\nClient Application\n(Azure CLI)"
+participant resource as "<$AzureAnalysisServices,color=#0072C6>\nResource Server\n(Microsoft Graph)"
+participant aad as "<$AzureActiveDirectory,color=#0072C6>\nAuthorization Server\n(Azure Active Directory)"
+
+autonumber
+client -x resource: Access token expires
+|||
+client -> aad: Redeems refresh token
+|||
+aad -> client: Returns new\naccess token & refresh token
+|||
+client -> resource: Bears access token in HTTP header
+
+@endumls
+
+@startuml
+
+skinparam sequenceMessageAlign left
+skinparam nodesep 40
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam rectangle {
+    StereotypeFontSize 12
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+
+
+
+
+
+
+
+hide stereotype
+
+
+
+
+sprite $AzureActiveDirectoryUser [70x70/16z] {
+jTO7SYin30DGLb3tl_0l_2NHABlaciwRdjWO2MwWMwBc3dSJfXUnEJwuq2iCQPGZZfFHCuelEJ-ypJn6SScfIt33gCbnHyRtIUEZ91qV9RMFCcu69QMIeEJZ
+MXALx9jJuh-7AN7efaIDIXebK4cYv5IBab7Dey9Kqt4jAGfAQNWOwa6Srdz2FRm_S-VKfUiIYEOnGJIF0JqZiKv6Zx2wuxYDcr2V67vXmPPXx80hzR0ZAJEh
+8zQAW0cp8EcZqU7CEsrlAdRy9xppxcuGV6AyaUxyK7pclB7jVwsGfFmPDjx-RVMZspg6SP2Zsx8Rny4-TtlGxY_hrks1Y_kS_G8dRouetxezQ7FxoDRjeJhA
+tg-q9ZJ71N2ogtytvuPa2bg_S8Whdjt65JJNHdORbwGt4vIPUricRc3hzbI_GaaOj__kZGINth3okEMz8H8ZJ9JMY52IDMAKT8s0agsHeEHhXXBM3BybvPsz
+q1fHelaRnhSfE7hF_GG
+}
+
+skinparam rectangle<<AzureActiveDirectoryUser>> {
+    BackgroundColor #FFFFFF
+    BorderColor transparent
+    Shadowing false
+}
+sprite $AzureEnterpriseApplication [70x70/16z] {
+xTU7RiGm38DXsIB5ND__WUiin56Nqxq-REBmtywmxyLvrYOsUNDth3YhAQAaRKhYaUsSeP8oLi6lg_35IloHod-5Fxg2jrGE9MbJzRFwsCE-hPYIOfOdcTMy
+yRjL_YlbQkM_yby9QZV5kN9BvagQvifj8jmHshbrz4WbRzFyMi8Nr1vYjKD9jYbj07m51zSAgbr3qJi8DGYtJVMaRPvKAE0za04Fr6S-bpnfYsG4ogMAFmg1
+uSeaYGu6F66WZbOa1Qdyla047OELIL9emVGz4M0Pg-WGVg0ak8TVhWX-Y3NAjrMSF2ftIQlSzKuLUcTDOgWovKfMtl9QDi3r2ZnZM3EzgGB6IALH9pSa3Nn7
+-UE5zwZ6hS6BbTkJtxHcnMOUpzq9PyW7FDeWro6m5W2FxQMCYfn1ID0CDgoe4sj4eIRi0bS7ZgsXA9PS-MX8fiYO6ds7GAJ8c4Br2C6Iwoz7AFPA1TGiwCNU
+fXJx6FS
+}
+
+skinparam rectangle<<AzureEnterpriseApplication>> {
+    BackgroundColor #FFFFFF
+    BorderColor transparent
+    Shadowing false
+}
+sprite $AzureActiveDirectory [70x70/16z] {
+vTPPbkGW34JHHXB2lVy5zq39u_C4v5_60kw98YZIlxumANq2CVy0O-O-ZEX_9OyZvkusX8ZzAAv39pihBcD8AFr3MIX3ZEwLF8IO3p1YHyMj0w7YsZmFbL9A
+uzu6fVoFfrx4mcXczA2KDTvyif6oI-v0g1HhceTAH9jEbaf4EX0g9JNC0mLC0m9bcYP_ceU10ORpC33-9pSY1gD6x-PXb4QDl3vPLH454acd28MQK0YTxIqK
+3WgamfE508MIdoAw4QXG-dtO6mAKSybsLK9eK_ZqQPUIiP6sA7pA9Ivpen9lNYvflYXoSpfwTo8QhqridF1dGU6hcRmkLG9X7IeyLPllZQijYJhFYgTDaPfQ
+9gAeSwhOfaXDLLb73mfFLLOZjdgeewVpbiB_IBcfepXLtHIH45YdHayKEHR95wyKHrSMcL3afauec1T5dkk4eikyU7LHHr57HTTvVJRMv-bj7LrETJKUF-zu
+1_Dop_2xs507HHu9rgdHrU2y34UFUV6jq5h7MAIZ3ZvQkkhWrxsdJiOzwwcJKQIdJiOzQuzOnZthgeCYtv2_
+}
+
+skinparam rectangle<<AzureActiveDirectory>> {
+    BackgroundColor #FFFFFF
+    BorderColor transparent
+    Shadowing false
+}
+sprite $AzureAnalysisServices [70x70/16z] {
+xTG7qfim48RXLTdstV_06GHBYH4_5kdnEyNzyQZINzkdJoozcEud_VvhHVkDAILHAa-LJ5FvcS8qnu-KJ7DvHB4eb6BHY59ZH82VAAdNKOa1EARyEoLBjzIK
+IDfVYZdcFD5MaMuvb714ss1yWRHGLEyhtaQoTrpobqeX8jy7mBSCKyRfaKA9FKPMjTjNIbiRjCmquZIz_ORIAegM7qwA79J2knHGZWf5gHfQjfsBl5UE9K3e
+D5aNZPRw2ZcCJcCpQv2kYYszAWRqbUOupINhAmAaQmKrtkWh5IZN8uANzaMxK3B07SKHXrsPrQuK0fJEaZ1UgtHpaTAC-6ax9Iqfy7gJSHZNIf7809LTjHb1
+N2iiaOOILP-Cokyg9bk6oM2YnDteLH70ZmQORYPx1JAdFXb2jnDTSo2U071D0qhSP67ec59eAlbac0ugGdEr6QDAh7rgnfkAsjAcH2CAqrn-fCIFv9cYEP0n
+9L8EOr291XNpRd-fejwDxfUuLwO_ia-VlW4
+}
+
+skinparam rectangle<<AzureAnalysisServices>> {
+    BackgroundColor #FFFFFF
+    BorderColor transparent
+    Shadowing false
+}
+
+skinparam sequence {
+    ParticipantBorderColor #666666
+    ParticipantBackgroundColor #FFFFFF
+    ParticipantPadding 50
+}
+
+skinparam SequenceLifeLineBorderColor #3C7FC0
+skinparam MaxMessageSize 1500
+skinparam MaxAsciiMessageLength 1500
+
+
+participant user as "<$AzureActiveDirectoryUser,color=#0072C6>\nResource Owner\n(End-User)"
+participant client as "<$AzureEnterpriseApplication,color=#0072C6>\nClient Application\n(Azure CLI)"
+participant resource as "<$AzureAnalysisServices,color=#0072C6>\nResource Server\n(Microsoft Graph)"
+participant aad as "<$AzureActiveDirectory,color=#0072C6>\nAuthorization Server\n(Azure Active Directory)"
+
+autonumber
+client -x resource: Access token expires
+|||
+client -> aad: Redeems refresh token
+|||
+aad -> client: Returns new\naccess token & refresh token
+|||
+client -> resource: Bears access token in HTTP header
+
+@endumls
+
+PlantUML version 1.2022.0(Tue Jan 11 11:16:42 EST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

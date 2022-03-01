@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="488px" preserveAspectRatio="none" style="width:531px;height:488px;background:#FFFFFF;" version="1.1" viewBox="0 0 531 488" width="531px" zoomAndPan="magnify"><defs/><g><!--MD5=[9f3a3c802154985209bf4225d03f508c]
+entity resourceowner--><rect fill="#FFFFFF" height="150.8281" style="stroke:#00000000;stroke-width:1.5;" width="126" x="28.5" y="332"/><image height="70" width="70" x="56.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAIAAAD+THXTAAACqUlEQVR42uWZvUpEMRCFz1v7Cr6Cr2BtJ9jaWFgLFiIWgoqFiIWgA4EQsze5yfzduesyxeK62Xx3MifJHPyYve5fv24ePy7v3s9vXyjOrp/TG/oLffT2+W30u1AfkeaaMIihH/Q/xBYdiWBWSazBoLjMRjLTCnoWsZCoZtgwZbpUCgybLDZTKkTIT0W1JRLVjy6PSl2JkCR60A+JBiLOkqtiAyS7FKWgR+aKZJ0iSaIQM0WSimIiOfCw1x7iaLfWHoWwhcQuJw6S4gnoOJFOr546EQupP9fB8ENSmW4gJJIHHx6/WiIR90HyE3F6+SDxbhn8A5EDEu+Gyz+2xiwk0eXCGsn7cuGQqG0u6pL99OTioRPbXNRTr5gx3dUQNokUml5CgCokXQe11qQilaSE9BvIEfKj3+aXVFGsNj+JBGUp+2KMxZZ9tO2RaBLV3YnwUmdiEIa+Tl/J/SZ6w95hpUjlPKqeDn2UIqUu7V2ZIZ10sreZH4FWX1L/VpvclKloNWfY7iBUklP1E6eQ+gMyZANTlTNopYzzjIw5S4XxnWfKyRuMwc7M1BEJujyHItEPi84rtNYbI1GzT2qQCqt6wDYdhMLArisYmS6rIsH2Cla3LNg1ilWEoTUyB4m95AZFws6kgZ3P1xEJuZ3TWX4wNcVaIqHii84haVmxiyKh9bxa6ofxJgmvvbgoDKa9S1h7LYdrT8t6arUvodudW3QfKmGwbjLDwWiphEF38MM7FRwsiXKDcvCg4NC8zyJh5Ij2kCyeYikSulXaWnvwMSNSI8HHLISbt2c6eBPJzfo3tUD/IOl6EJ5RlhPKHWm/SGU5wc4p8ozyGIHyaLdfpFIhUMrdfpEoFpAYPkqoyKJ3PEj/o5Z2vS+Vd0FUl6U98lT3C+i6yNtusun1CyFbZ3OL1XCeAAAAAElFTkSuQmCC" y="342"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="93.5" y="426.5332"/><line style="stroke:#00000000;stroke-width:1.0;" x1="29.5" x2="153.5" y1="429.6094" y2="429.6094"/><line style="stroke:#00000000;stroke-width:1.0;" x1="29.5" x2="153.5" y1="431.6094" y2="431.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="38.5" y="448.1426">Resource Owner</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="57" y="465.752">(End-User)</text><!--MD5=[e421f12fb0f121f2a05b80a7c1b8a60a]
+entity clientapp--><rect fill="#FFFFFF" height="150.8281" style="stroke:#00000000;stroke-width:1.5;" width="181" x="341" y="332"/><image height="70" width="70" x="396.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAIAAAD+THXTAAACnElEQVR42u2bsU4DMQyG+5K8Aq/AK/AKjKywslViZWFgpVIHhBiQKOqAEAMS/JKlX26S69nXktwdrixUovNdvtjJxY67+JndZzFnpPvnj6uHN7tQ0aWV6OKhIsvVNpdEa735ciDhpue3Ly7hLbyKF3evg3UtVAuOtPfu75/f9ZFgukAKpPpIemn5QyR0MZACKZACKZCmiuTVDaRAIhL2TnNDwgdddAkVEcMwkrOIjnkGP/S/BupzQ4J/n908uYRu4FVkkA8P9Oo65lIgBVIgBdKYkHCHQAqkQAqkQAqksSKhD/sDZLnGgXR6vXaJRnIpaiT8K2O/XG15wrk/i4ZrTEi4dDCSVxcM2koAyIN5MVcX2/5z2yPkHryK1OUxczFFIe1yCJ0job2LqlmgLh3FX0sGJvdGaSk64WJYlkffy6uIZ0mODX3qMlGRSkoFqCVfclsdYS55FZnNs/MURdwPkiTDWiIdwqMdMjmTro0k7yXOcnrUMKNRUbtfbSSdRpa5oVuMVDIKYiKOSxskbaLiO8eyAOrVj9MJX9ifqkiWEwCLs+mlXBr1gj4uJN3LPSJWSvi5o50kEuvsepBOLh9dQiTj9UYk+34ib6mNpNeGw5GKIl2aqpVyE3EbMTqkYbskeefuOB68YqJI3Hw0QIJYkLww+cl0PcczrhB2KyWhYfqqxY0qIFl8z76IdxUt7NSJu6qBBtcuHG6oPMjVybDagbqlIL24JdeJinzodRTYIPdg8YWESpsld7lyCFjzgxE11uUU3SwZkTxZ2SZDZPw9BPNeXSEWWvIqnGZJL9ek4i9JenkaF9ysN1/GecXoldd38bSvIUK37LVvAtb7M4VRlEUZzSUwvSVsI6r0Ql+LGXCmgSZfj2evKZx/Pd4vIWYseF1fR0MAAAAASUVORK5CYII=" y="342"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="433.5" y="426.5332"/><line style="stroke:#00000000;stroke-width:1.0;" x1="342" x2="521" y1="429.6094" y2="429.6094"/><line style="stroke:#00000000;stroke-width:1.0;" x1="342" x2="521" y1="431.6094" y2="431.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="377" y="448.1426">Client Application</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="161" x="351" y="465.752">(Third-Party OAuth Apps)</text><!--MD5=[ede78735b8ea7b87f9875cd829ff5599]
+entity aad--><rect fill="#FFFFFF" height="150.8281" style="stroke:#00000000;stroke-width:1.5;" width="169" x="7" y="7"/><image height="70" width="70" x="56.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAIAAAD+THXTAAAC/klEQVR42u3bv2ocMRAG8O9p8wp5Bb9CXiFp0xncpknhOuAiBBcG26QIIYUhGRARQiONpPmjuz1umcKF79jfze2n3dk9/L24DVfSlfR/e/39RnU5JMLcfvv54cvTHtUOEnkSieoSSF9//CpJH++fj03Knkyior+PSnp4+ZM9JYmKqMcjpUjokagIfCQS93BSXACGkLinSQpSITQShqSIAMQeT48UoUJcxE2S3GMdezwyyTfWERdxk6Sbu8dUXrGOuIgbkjImlVcAYo+nIlUYXxXiIq5J6mFK1SlJw0goa4jJZYx17PEskagssY64iLOQqNSxjtBIsJDUsY49Hh2JShGAiIs4F5JChT0eBen95++pVmMdcRGnJmWMToW4iFOQOCbX/GKFPZ4hScDkmox1xEVcWbQ3FkyumVhHXCTQC6loJ6h6pCVPqmEAwtdTMsoSurRqG8Y67BHXYyyRlnj0PxqSHAkzDDVphifEOiY9ybDEcCH1eO8+PfRiHULEGRnuJM5rXoOg2SIXRihJuASGkHVnTlr74uXE84L5kuSpCypAE3ZWJL6T1K5ysQJfgvhJh/3ociHxI6d626RCL7J5Zy3fQzup+qBp96oRWl6CISypju2ykHgMVOf11RKM4Vlcs117SDwGms2pCjOXQ/yIXG2XgsSXUaE5uUW0Y5g/6bYcXUskHgP0DjKmTEIsXb2q2zVP6mW0cBZbfQRQXFMo2jVD4jFQvarZHJ5h0A0bmouyoBqS+J4Nm6M8IZJh8ykvkOTm9C4BhSEEjLOhyXOoJmmY0brp19SEyN4uTuKfRZnRuqnD8mhSTvleuxKsJDUzOjend2U+f8dpbSaublcmCTEgjBmWJv2amzG6RZkfA+UCapywOtwyU7RL0ZwT3H5WtKvMaGFMZ3msw/qQwFLKlxltv0MR+3TKTLtyRgc1x/+xqGG7vG4fndHzeOqx/YlJvXZRE4wL6ClJzXZxkntzwklVuyrSIZ8TrxblTNrws4t9v4yJbs5W0ubtSjrC9g+57VfaxemlogAAAABJRU5ErkJggg==" y="17"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="93.5" y="101.5332"/><line style="stroke:#00000000;stroke-width:1.0;" x1="8" x2="175" y1="104.6094" y2="104.6094"/><line style="stroke:#00000000;stroke-width:1.0;" x1="8" x2="175" y1="106.6094" y2="106.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="27.5" y="123.1426">Authorization Server</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="17" y="140.752">(Azure Active Directory)</text><!--MD5=[a66ed64923c5639361f84ea68eddba04]
+entity resourceserver--><rect fill="#FFFFFF" height="150.8281" style="stroke:#00000000;stroke-width:1.5;" width="131" x="376" y="7"/><image height="70" width="70" x="406.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAIAAAD+THXTAAACoklEQVR42u2avUoEMRDH9yV9BV/BV/AVLG21tRNsbSxsFa4QsRBULEQsBP3DwJBLdibZ7OxuorMMh5czm/x2vi83/Py5a3AkR3IkR3IkR3KkFZDObl9Orp+tBHfbHsmQh8SRHOmfIh1fPdlKB0g3jx9vn9/4T7zi7+6Rdq9f0TSMdIwkJRmM94qUqqhEUdsjHV08SCIhwaOUWU0jXd6/S4Z3cHoHOTzfVSMh2FjJBCTJikBCSCwhWwkP9G+bDAksjwSJUidmYgTjKRWzhY9NumC6tkjkI0VIDAaB0iJLw9tRNspmChJMemMk3veo80hgGOTFlkaiJziwY5RIuFFdABmxYQQRJTTIzpDI5cCQqo4NEki2heXiSFFkS22SI6pSuLBW6SatIIUhDguP+lthIaZT7SHhDW6RFd4QLSmJHujw4GFyqbOR3vSSSq/C9pDKkz2tbdLk4SZKkJRmGSNx0WBSxUGfaYZgK1CQpDRTicQGY4uUpj7JTJTMWYnEsauk5KlGgoyWy+kUAySsREvqMWCm4ZGioiUoqNgjIebQkvO/UiUkKUJw1uJgmy3ZKpFwZT14qg1LHcpUIVutQZof9Kg9SWFmSh5J6h854U7tN6N22BAmj6Q3ZxzHwVZSIHPsimCsSIqQ9LOZsCwqLPuxWFQiYoTq9LaQuNUtUSnDcKik7sNQtFPA7AlaWIwVwpjE/fqDzeyz511KaoyyzZpnGSKS3mzxjpWPwl5ofvW0ONJovzkKQ9I6UlrdYcdRQIs68KaRJK+gcjaF6QBJ+oqcOhlp1vZIStmrI0nSNJKUWxAkekWS9ke5tVek9GhQ5+kAKew3szA9IU2S7ZH4cMVKHMmRCn3JFmmDHwmkpYBhsyn9cmJVpK4vR3IkR3IkR3Kklq5f82eDAHLUpLAAAAAASUVORK5CYII=" y="17"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="443.5" y="101.5332"/><line style="stroke:#00000000;stroke-width:1.0;" x1="377" x2="506" y1="104.6094" y2="104.6094"/><line style="stroke:#00000000;stroke-width:1.0;" x1="377" x2="506" y1="106.6094" y2="106.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="388" y="123.1426">Resource Server</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="386" y="140.752">(Microsoft Graph)</text><!--MD5=[b72e361f911202d48c374b669fb5a39b]
+reverse link aad to resourceserver--><path d="M181.31,82.5 C242.08,82.5 320.99,82.5 375.9,82.5 " fill="none" id="aad-backto-resourceserver" style="stroke:#666666;stroke-width:1.0;stroke-dasharray:1.0,3.0;"/><polygon fill="#666666" points="176.23,82.5,185.23,86.5,181.23,82.5,185.23,78.5,176.23,82.5" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="123" x="214.5" y="75.957">Exposes API as scope</text><!--MD5=[f89c490ee777516b591329aa4674be9f]
+reverse link resourceserver to clientapp--><path d="M439.03,163.26 C437.44,214.77 435.38,281.33 433.81,331.81 " fill="none" id="resourceserver-backto-clientapp" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="439.19,158.01,434.9093,166.8799,439.0329,163.0075,442.9053,167.1312,439.19,158.01" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="73" x="447.5" y="249.957">Bears tokens</text><!--MD5=[232345c266d314c49f751ead2db8c203]
+reverse link resourceowner to clientapp--><path d="M159.94,407.5 C211.95,407.5 283.98,407.5 340.79,407.5 " fill="none" id="resourceowner-backto-clientapp" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="154.65,407.5,163.65,411.5,159.65,407.5,163.65,403.5,154.65,407.5" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="101" x="192.75" y="400.957">Requests consent</text><!--MD5=[c8a069326bc9802713f5d253f3a67985]
+reverse link aad to resourceowner--><path d="M84.91,163.39 C82.12,197.23 79.5,229 79.5,229 C79.5,229 79.5,261 79.5,261 C79.5,261 82.38,295.97 85.32,331.62 " fill="none" id="aad-backto-resourceowner" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="85.32,158.38,80.5885,167.0179,84.906,163.3628,88.561,167.6803,85.32,158.38" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="84" x="94" y="242.457">Grants consent</text><text fill="#666666" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="96" x="86.5" y="257.5508">to client for scope</text><!--MD5=[a67b3d7d2c73dab464e72618797e2d28]
+link aad to clientapp--><path d="M169.93,158.01 C223.55,208.95 294.51,276.36 348.98,328.11 " fill="none" id="aad-to-clientapp" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="352.88,331.81,349.1223,322.7062,349.2597,328.3614,343.6045,328.4987,352.88,331.81" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="82" x="279.5" y="249.957">Issues Tokens</text><!--MD5=[f3207a58b07e0ec9919dd51469073e13]
+@startuml
+
+skinparam linetype polyline
+'skinparam sequenceMessageAlign left
+skinparam nodesep 75
+skinparam ranksep 45
+
+' Azure
+!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/master/dist
+!includeurl AzurePuml/AzureCommon.puml
+!includeurl AzurePuml/AzureSimplified.puml
+!includeurl AzurePuml/Identity/AzureActiveDirectoryUser.puml
+!includeurl AzurePuml/Identity/AzureEnterpriseApplication.puml
+!includeurl AzurePuml/Identity/AzureActiveDirectory.puml
+!includeurl AzurePuml/Analytics/AzureAnalysisServices.puml
+
+skinparam MaxMessageSize 1500
+skinparam MaxAsciiMessageLength 1500
+
+AzureActiveDirectoryUser(resourceowner, "\nResource Owner\n(End-User)", "Global")
+AzureEnterpriseApplication(clientapp, "\nClient Application\n(Third-Party OAuth Apps)", "Global")
+AzureActiveDirectory(aad, "\nAuthorization Server\n(Azure Active Directory)", "Global")
+AzureAnalysisServices(resourceserver, "\nResource Server\n(Microsoft Graph)", "Global")
+
+resourceserver -[dotted]l- - -> aad: "Exposes API as scope"
+resourceserver <- - -d- clientapp: "   Bears tokens "
+clientapp -l- - -> resourceowner: "Requests consent   "
+resourceowner -u- - -> aad: "   Grants consent\n  to client for scope"
+aad - - -> clientapp: "Issues Tokens"
+
+@endumls
+
+@startuml
+
+skinparam linetype polyline
+skinparam nodesep 75
+skinparam ranksep 45
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam rectangle {
+    StereotypeFontSize 12
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+
+
+
+
+
+
+
+hide stereotype
+
+
+
+
+sprite $AzureActiveDirectoryUser [70x70/16z] {
+jTO7SYin30DGLb3tl_0l_2NHABlaciwRdjWO2MwWMwBc3dSJfXUnEJwuq2iCQPGZZfFHCuelEJ-ypJn6SScfIt33gCbnHyRtIUEZ91qV9RMFCcu69QMIeEJZ
+MXALx9jJuh-7AN7efaIDIXebK4cYv5IBab7Dey9Kqt4jAGfAQNWOwa6Srdz2FRm_S-VKfUiIYEOnGJIF0JqZiKv6Zx2wuxYDcr2V67vXmPPXx80hzR0ZAJEh
+8zQAW0cp8EcZqU7CEsrlAdRy9xppxcuGV6AyaUxyK7pclB7jVwsGfFmPDjx-RVMZspg6SP2Zsx8Rny4-TtlGxY_hrks1Y_kS_G8dRouetxezQ7FxoDRjeJhA
+tg-q9ZJ71N2ogtytvuPa2bg_S8Whdjt65JJNHdORbwGt4vIPUricRc3hzbI_GaaOj__kZGINth3okEMz8H8ZJ9JMY52IDMAKT8s0agsHeEHhXXBM3BybvPsz
+q1fHelaRnhSfE7hF_GG
+}
+
+skinparam rectangle<<AzureActiveDirectoryUser>> {
+    BackgroundColor #FFFFFF
+    BorderColor transparent
+    Shadowing false
+}
+sprite $AzureEnterpriseApplication [70x70/16z] {
+xTU7RiGm38DXsIB5ND__WUiin56Nqxq-REBmtywmxyLvrYOsUNDth3YhAQAaRKhYaUsSeP8oLi6lg_35IloHod-5Fxg2jrGE9MbJzRFwsCE-hPYIOfOdcTMy
+yRjL_YlbQkM_yby9QZV5kN9BvagQvifj8jmHshbrz4WbRzFyMi8Nr1vYjKD9jYbj07m51zSAgbr3qJi8DGYtJVMaRPvKAE0za04Fr6S-bpnfYsG4ogMAFmg1
+uSeaYGu6F66WZbOa1Qdyla047OELIL9emVGz4M0Pg-WGVg0ak8TVhWX-Y3NAjrMSF2ftIQlSzKuLUcTDOgWovKfMtl9QDi3r2ZnZM3EzgGB6IALH9pSa3Nn7
+-UE5zwZ6hS6BbTkJtxHcnMOUpzq9PyW7FDeWro6m5W2FxQMCYfn1ID0CDgoe4sj4eIRi0bS7ZgsXA9PS-MX8fiYO6ds7GAJ8c4Br2C6Iwoz7AFPA1TGiwCNU
+fXJx6FS
+}
+
+skinparam rectangle<<AzureEnterpriseApplication>> {
+    BackgroundColor #FFFFFF
+    BorderColor transparent
+    Shadowing false
+}
+sprite $AzureActiveDirectory [70x70/16z] {
+vTPPbkGW34JHHXB2lVy5zq39u_C4v5_60kw98YZIlxumANq2CVy0O-O-ZEX_9OyZvkusX8ZzAAv39pihBcD8AFr3MIX3ZEwLF8IO3p1YHyMj0w7YsZmFbL9A
+uzu6fVoFfrx4mcXczA2KDTvyif6oI-v0g1HhceTAH9jEbaf4EX0g9JNC0mLC0m9bcYP_ceU10ORpC33-9pSY1gD6x-PXb4QDl3vPLH454acd28MQK0YTxIqK
+3WgamfE508MIdoAw4QXG-dtO6mAKSybsLK9eK_ZqQPUIiP6sA7pA9Ivpen9lNYvflYXoSpfwTo8QhqridF1dGU6hcRmkLG9X7IeyLPllZQijYJhFYgTDaPfQ
+9gAeSwhOfaXDLLb73mfFLLOZjdgeewVpbiB_IBcfepXLtHIH45YdHayKEHR95wyKHrSMcL3afauec1T5dkk4eikyU7LHHr57HTTvVJRMv-bj7LrETJKUF-zu
+1_Dop_2xs507HHu9rgdHrU2y34UFUV6jq5h7MAIZ3ZvQkkhWrxsdJiOzwwcJKQIdJiOzQuzOnZthgeCYtv2_
+}
+
+skinparam rectangle<<AzureActiveDirectory>> {
+    BackgroundColor #FFFFFF
+    BorderColor transparent
+    Shadowing false
+}
+sprite $AzureAnalysisServices [70x70/16z] {
+xTG7qfim48RXLTdstV_06GHBYH4_5kdnEyNzyQZINzkdJoozcEud_VvhHVkDAILHAa-LJ5FvcS8qnu-KJ7DvHB4eb6BHY59ZH82VAAdNKOa1EARyEoLBjzIK
+IDfVYZdcFD5MaMuvb714ss1yWRHGLEyhtaQoTrpobqeX8jy7mBSCKyRfaKA9FKPMjTjNIbiRjCmquZIz_ORIAegM7qwA79J2knHGZWf5gHfQjfsBl5UE9K3e
+D5aNZPRw2ZcCJcCpQv2kYYszAWRqbUOupINhAmAaQmKrtkWh5IZN8uANzaMxK3B07SKHXrsPrQuK0fJEaZ1UgtHpaTAC-6ax9Iqfy7gJSHZNIf7809LTjHb1
+N2iiaOOILP-Cokyg9bk6oM2YnDteLH70ZmQORYPx1JAdFXb2jnDTSo2U071D0qhSP67ec59eAlbac0ugGdEr6QDAh7rgnfkAsjAcH2CAqrn-fCIFv9cYEP0n
+9L8EOr291XNpRd-fejwDxfUuLwO_ia-VlW4
+}
+
+skinparam rectangle<<AzureAnalysisServices>> {
+    BackgroundColor #FFFFFF
+    BorderColor transparent
+    Shadowing false
+}
+
+skinparam MaxMessageSize 1500
+skinparam MaxAsciiMessageLength 1500
+
+rectangle "<color:#0072C6><$AzureActiveDirectoryUser></color>\n\n==\nResource Owner\n(End-User)" <<AzureActiveDirectoryUser>> as resourceowner
+rectangle "<color:#0072C6><$AzureEnterpriseApplication></color>\n\n==\nClient Application\n(Third-Party OAuth Apps)" <<AzureEnterpriseApplication>> as clientapp
+rectangle "<color:#0072C6><$AzureActiveDirectory></color>\n\n==\nAuthorization Server\n(Azure Active Directory)" <<AzureActiveDirectory>> as aad
+rectangle "<color:#0072C6><$AzureAnalysisServices></color>\n\n==\nResource Server\n(Microsoft Graph)" <<AzureAnalysisServices>> as resourceserver
+
+resourceserver -[dotted]l- - -> aad: "Exposes API as scope"
+resourceserver <- - -d- clientapp: "   Bears tokens "
+clientapp -l- - -> resourceowner: "Requests consent   "
+resourceowner -u- - -> aad: "   Grants consent\n  to client for scope"
+aad - - -> clientapp: "Issues Tokens"
+
+@endumls
+
+PlantUML version 1.2022.0(Tue Jan 11 11:16:42 EST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>
