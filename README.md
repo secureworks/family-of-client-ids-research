@@ -80,7 +80,7 @@ When the resource server receives a web request from a client application, it ne
 
 The OAuth 2.0 specifications define a variety of protocols - called grant flows - involving an authorization server, client application, and (usually) the resource owner. All grant flows result in the authorization server issuing temporary credentials – called [bearer tokens](https://datatracker.ietf.org/doc/html/rfc6750) – to the client application that will grant access when presented to the resource server. All bearer tokens are issued to the client application by the authorization server.
 
-Here is a simplified diagram of the [authentication code grant flow](https://datatracker.ietf.org/doc/html/rfc6749#section-4.1):
+Here is a simplified diagram of the [authorization code grant flow](https://datatracker.ietf.org/doc/html/rfc6749#section-4.1):
 
 ![flows](images/obtains-tokens.svg)
 
